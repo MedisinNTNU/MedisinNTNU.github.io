@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Glukosemåling</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+    <div>
+      Legg inn måling: <input type="number" id="number"> mmol/L <button id="button">Legg til</button>
+    </div>
+    <div>
+      <canvas id="chart" width="1050" height="400"></canvas>  
+    </div>
+    <div id="comments"></div>
+
+    <script>
+      const canvas = document.getElementById('chart');
+      const context = canvas.getContext('2d');
+
+      /* Draw a line from (fromX, fromY) to (toX, toY) */
+      function drawLine(fromX, fromY, toX, toY) {
+        context.beginPath();
+        context.moveTo(toX, toY);
+        context.lineTo(fromX, fromY);
+        context.stroke();
+
+      }
+
+      /* Draw a text (string) on (x, y) */
+      function drawText(text, x, y) {
+        context.fillStyle = 'black';
+        context.fillText(text, x, y);
+      }
+
+      /* Draw a text and with a line to its right */
+      function drawLineWithText(text, fromX, fromY, toX, toY) {
+        drawText(text, fromX - 50, fromY+5);
+        drawLine(fromX, fromY, toX, toY);
+      }
+
+      function drawPoint(x,y) {
+        context.beginPath();
+        context.strokeStyle = "#0000FF"
+        context.arc(x,y,1,0,2*Math.PI);
+        context.stroke();
+      }
+
+      //Task 2
+      for (var i = 0; i <= 10; i++) {
+        drawLineWithText((10-i) + " mmol/L", 50, i*25+50, 1050, i*25+50);
+        //Ved 600
+        //drawLineWithText((10-i) + " mmol/L", 50, i*50+50, 1050, i*50+50);
+      }
+
+      var input = document.getElementById("number");
+      var button = document.getElementById("button");
+      var comments = document.getElementById("comments")
+
+      //var verdiArray = [5.0, 6.3, 8.4, 7.2, 7.4, 6.9];
+      var verdiArray = [];
+      var kalkulertArray = [];
+
+      button.onclick = function () {
+        if (input.value < 0 || input.value == "") {
+          console.log("empty");
+        }
+        else {
+          console.log(input.value);
+          var number = Number(input.value);
+          var num = number.toFixed(1);
+          verdiArray.push(num);
+          writeComments();
+          
+          for (var i = 0; i < verdiArray.length; i++) {
+            kalkulertArray[i] = kalkulerPunkt(verdiArray[i]);
+            drawPoint(100+i*100, kalkulertArray[i]);
+          }
+
+          if (kalkulertArray.length > 1) {
+            drawLines();
+          }
+        }
+      }
+
+
+      kalkulerPunkt = function (verdi) {
+        var kalkulerVerdi = 300-(verdi*25);
+        // Ved 600
+        //var kalkulerVerdi = 600-(verdi*50)
+        return kalkulerVerdi;
+      }
+
+      console.log(verdiArray);
+      console.log(kalkulertArray);
+
+      drawLines = function () {
+        for (var i = 0; i < kalkulertArray.length - 1; i++) {
+          context.strokeStyle = "#0000FF";
+          drawLine(100+i*100, kalkulertArray[i], 200+i*100, kalkulertArray[i+1])
+        }
+      }
+
+      /*
+      for (var i = 0; i < verdiArray.length; i++) {
+          kalkulertArray[i] = kalkulerPunkt(verdiArray[i]);
+      }
+      drawLines();
+      */
+
+      writeComments = function () {
+        comments.innerHTML = "";
+        var table = document.createElement("table");
+        var trHeader = document.createElement("tr");
+        var thNumber = document.createElement("th");
+        thNumber.innerHTML = "Måling";
+        trHeader.appendChild(thNumber);
+        var thValue = document.createElement("th");
+        thValue.innerHTML = "Verdi";
+        trHeader.appendChild(thValue);
+        table.appendChild(trHeader);
+
+        for (var i = 0; i < verdiArray.length; i++) {
+          var tr = document.createElement("tr");
+          var tdNumber = document.createElement("td");
+          tdNumber.innerHTML = i+1;
+          var tdValue = document.createElement("td");
+          tdValue.innerHTML = verdiArray[i] + " mmol/L";
+
+          tr.appendChild(tdNumber);
+          tr.appendChild(tdValue);
+
+          table.appendChild(tr);
+        }
+        comments.appendChild(table);
+      }
+
+
+
+    </script>
+  </body>
+</html>
