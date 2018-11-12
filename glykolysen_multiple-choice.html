@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/png" href="bilder/stethoscope.png"/>
+	<title>Glykolysen</title>
+
+	<style type="text/css">
+
+		#webpage {
+
+		}
+
+		.container {
+			height: 420px;
+		}
+
+		.containerElement {
+			width: 20%;
+			float: left;
+		}
+
+		.element {
+			background-color: yellow;
+			margin: 2%;
+			border: 2px solid black;
+			height: 75px;
+			text-align: center;
+			padding: 2%;
+			color: black;
+		}
+
+		.statistic {
+	z-index: -1;
+	position: fixed;
+	bottom: 2%;
+	left: 1%;
+	width: 100%;
+		}
+
+		.comments {
+			bottom: 10%;
+			text-align: center;
+		}
+
+		button {
+			margin: auto;
+			display: block;
+			padding: 0.5%;
+			background-color: lightblue;
+		}
+
+		.imgSubstance {
+			height: 200px;
+			max-width: 300px;
+		}
+
+	</style>
+</head>
+<body>
+
+<div id="webpage">
+
+	<div class="container" id="containerId"></div>
+
+	<div class="comments" id="commentsId"></div>
+
+	<div class="statistic" id="statisticId"></div>
+
+</div>
+
+<script type="text/javascript">
+
+	var container = document.getElementById("containerId");
+	var comments = document.getElementById("commentsId");
+	var statistic = document.getElementById("statisticId");
+
+	var button = document.createElement("button");
+	button.innerHTML = "Ja";
+
+	var  giveNegativeAnswer = document.createElement("button");
+	giveNegativeAnswer.innerHTML = "Nei";
+
+	var nesteKnappRiktig  = document.createElement("button");
+	nesteKnappRiktig.innerHTML = "Neste";
+
+	var nesteKnappFeil  = document.createElement("button");
+	nesteKnappFeil.innerHTML = "Prøv igjen";
+
+	var reaksjoner = [
+	"glucose &#x2192 glucose 6-phosphate",
+	"glucose 6-phosphate &#x2194 fructose 6-phosphate",
+	"fructose 6-phosphate &#x2192 fructose 1,6-bisphosphate",
+	"fructose 1,6-bisphosphat &#x2194 glyceraldehyde 3-phosphate and dihydroxyacetone phosphate",
+	"dihydroxyacetone phosphate &#x2194 glyceraldehyde 3-phosphate",
+	"glyceraldehyde 3-phosphate &#x2194 1,3-bisphosphoglycerate",
+	"1,3-bisphosphoglycera &#x2194 3-phosphoglycerate",
+	"3-phosphoglycerate &#x2194 2-phosphoglycerate",
+	"2-phosphoglycerate &#x2194 phosphoenolpyruvate",
+	"phosphoenolpyruvate &#x2192 pyruvate"
+	];
+
+	var enzymer = [
+	"hexokinase",
+	"phosphoglucose isomerase",
+	"phosphofructokinase",
+	"aldolase",
+	"triose phosphate isomerase",
+	"glyceraldehyde 3-phosphate dehydrogenase",
+	"phosphoglycerate kinase",
+	"phosphoglycerate mutase",
+	"enolase",
+	"pyruvate kinase"
+	];
+
+	var substance = [
+		{
+			name: "glucose",
+			img: "D-glucose.png"
+		},
+		{
+			name: "glucose 6-phosphate",
+			img: "D-glucose-6-phosphate.png"
+		},
+		{
+			name: "fructose 6-phosphate",
+			img: "D-fructose-6-phosphate.png"
+		},
+		{
+			name: "fructose 1,6-bisphosphate",
+			img: "D-fructose-1,6-bisphosphate.png"
+		},
+		{
+			name: "glyceraldehyde 3-phosphate",
+			img: "glyceraldehyde-3-phosphate.png"
+		},
+		{
+			name: "dihydroksyacetonfosfat",
+			img: "dihydroksyacetonfosfat.png"
+		},
+		{
+			name: "1,3-bisphosphoglycerate",
+			img: "1,3-bisphospho-D-glycerate.png"
+		},
+		{
+			name: "3-phosphoglycerate",
+			img: "3-phospho-D-glycerate.png"
+		},
+		{
+			name: "2-phosphoglycerate",
+			img: "2-phospho-D-glycerate.png"
+		},
+		{
+			name: "phosphoenolpyruvate",
+			img: "phosphoenolpyruvate.png"
+		},
+		{
+			name: "pyruvate",
+			img: "pyruvate.png"
+		}
+	]
+	console.log(substance);
+
+
+	//https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
+	function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+	}
+
+	shuffle(substance);
+
+	var substanceQuestion = substance;
+	var answerArray = [];
+
+	var numberOfValg = 0;
+
+	var numberOfCorrect = 0;
+	var numberOfWrong = 0;
+	var points = 0;
+
+	var i = 0;
+	var randomIndexOne = 0;
+	var randomIndexTwo = 0;
+
+	DisplayElement = function () {
+
+		container.innerHTML = "";
+
+		var img = document.createElement("img");
+		img.src = "bilder/glykolysen/" + substanceQuestion[i].img;
+		img.className = "imgSubstance";
+
+		container.appendChild(img);
+
+		GenerateRandomIndex(i, randomIndexOne, randomIndexTwo);
+		
+		shuffle(answerArray);
+		console.log(answerArray);
+
+		for (var j = 0; j < answerArray.length; j++) {
+			console.log(substanceQuestion[answerArray[j]]);
+			console.log(answerArray[j]);
+			var radio = document.createElement("input");
+			radio.type = "radio";
+			radio.id = substanceQuestion[answerArray[j]].name + "Id";
+			radio.value = substanceQuestion[answerArray[j]].name;
+			radio.name = "substance";
+			var label = document.createElement("label");
+			label.htmlFor = substanceQuestion[answerArray[j]].name + "Id";
+			label.innerHTML = substanceQuestion[answerArray[j]].name;
+			container.appendChild(radio);
+			container.appendChild(label);
+			BindRadioButtons(radio, substanceQuestion[answerArray[j]].name, substanceQuestion[i].name);
+		}
+
+		container.appendChild(button);
+	}
+
+	GenerateRandomIndex = function (index, randomIndexOne, randomIndexTwo) {
+		randomIndexOne = Math.floor(Math.random() * (substance.length));
+		randomIndexTwo = Math.floor(Math.random() * (substance.length));
+
+		console.log(index);
+		console.log(randomIndexOne);
+		console.log(randomIndexTwo);
+
+
+		if (index != randomIndexOne && index != randomIndexTwo && randomIndexOne != randomIndexTwo) {
+			answerArray = [index,randomIndexOne,randomIndexTwo];
+			
+		}
+
+		else {
+			console.log("random: " + randomIndexOne);
+			GenerateRandomIndex(index, randomIndexOne, randomIndexTwo);
+		}
+	}
+
+	BindRadioButtons = function (radio, element, correctElement) {
+
+		var radioElement = "";
+		button.onclick = function () {
+			console.log("Velg en verdi");
+			comments.innerHTML = "Velg en verdi";
+		}
+
+		radio.onchange = function () {
+			comments.innerHTML = "";
+			console.log(element);
+			radioElement = element;
+
+			button.onclick = function () {
+				console.log("submit");
+				if (element == correctElement) {
+					console.log("right answer");
+					numberOfCorrect += 1;
+					points += 1;
+					comments.innerHTML = "Det er riktig!";
+				}
+				else {
+					console.log("wrong answer");
+					numberOfWrong += 1;
+					points -= 1;
+					comments.innerHTML = "Det er feil!";
+				}
+				i += 1;
+				if (i > 10) {
+					i = 0;
+					/*
+					ShowResults();
+					*/
+				}
+				DisplayElement();
+				UpdateStatistics();
+			}
+		}
+	}
+
+	DisplayElement();
+
+	UpdateStatistics = function () {
+		statistic.innerHTML = "Antall rette: " + numberOfCorrect;
+		statistic.innerHTML += "<br>";
+		statistic.innerHTML += "Antall feil: " + numberOfWrong;
+		statistic.innerHTML += "<br>";
+		statistic.innerHTML += "Poeng: " + points;
+	}
+	
+
+
+</script>
+
+</body>
+</html>
