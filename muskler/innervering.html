@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Innervering</title>
+</head>
+<body>
+
+	<div id="poeng"></div>
+	<div id="info"></div>
+	<div id="svar"></div>
+	<div id="fasit"></div>
+
+	<script type="text/javascript">
+
+		var poeng = document.getElementById("poeng");
+		var info = document.getElementById("info");
+		var svar = document.getElementById("svar");
+		var fasit = document.getElementById("fasit");
+
+		var inputSvar = document.createElement("input");
+		inputSvar.type = "text";
+
+		var sendSvarKnapp = document.createElement("button");
+		sendSvarKnapp.innerHTML = "Send svar";
+
+		var nesteSporsmalKnapp = document.createElement("button");
+		nesteSporsmalKnapp.innerHTML = "Neste spørsmål";
+/*
+		var nerver = [
+		//A
+		"N accessorius",
+		//D
+		"N dorsalis scapulae",
+		//I
+		//P
+		"N pectorales medius",
+		"N pectorales lateralis",
+		//S
+		"Nn spinalis cervicalis (C3-C4)",
+		"N subclavus",
+		"N suprascapularis",
+		//T
+		"N thoracicus longus",
+		]
+*/
+		//Ansa betyr sløyfer
+		var sløyfer = [
+		"Ansa cervicalis"
+		]
+
+		var plexi = [
+		"Plexus cervicalis"
+		]
+
+		var skulderMuskler = [
+		["M trapezius", ["N accessorius"]],
+		["M sternocleidomastoideus", ["N accessorius"]],
+		["M omohyoideus", ["Ansa cervicalis"]],
+
+		["M serratus anterior", ["N thoracicus longus"]],
+		["M subclavus", ["N subclavus"]],
+		["M pectoralis minor", ["Nn pectorales medialis og lateralis"]],
+		["M levator scapulae", ["N dorsalis scapulae og nn spinalis cervicalis"]],
+		["M rhomboideus minor", ["N dorsalis scapulae"]],
+		["M rhomboideus major", ["N dorsalis scapulae"]],
+
+		//Rotator-cuffen
+		["M supraspinatus", ["N suprascapularis"]],
+		["M infraspinatus", ["N suprascapularis"]],
+		["M teres minor", ["N axillaris"]],
+		["M subscapularis", ["N subscapularis"]],
+
+		["M deltoideus", ["N axillaris"]],
+
+		["M latissimus dorsi", ["N supscapularis interior"]],
+		["M teres major", ["N thoracodorsalis"]],
+
+		["M pectoralis major", ["Nn pectorales medialis og lateralis"]],
+		["M coracobrachialis", ["N musculocutaneus"]],
+		];
+
+		var armMuskler = [
+		//Fremre
+		["M biceps brachii", ["N musculocutaneus"]],
+		["M brachialis", ["N musculocutaneus og n radialis"]],
+
+		//Bakre
+		["M triceps brachii", ["N radialis"]],
+		["M anconeus", ["N radialis"]],
+
+		//Femre/Fleksjon, underarm/antebrachius overflatemuskler
+		["M pronator teres", ["N medianus"]],
+		["M flexor carpi radialis", ["N medianus"]],
+		["M palmaris longus", ["N medianus"]],
+		["M flexor carpi ulnaris", ["N ulnaris"]],
+		["M flexor digitorium superficialis", ["N medianus"]],
+
+		//Fremre/Fleksjon underarm dype muskler
+		["M flexor digitorium profundus, finger 2-3", ["N medianus"]],
+		["M flexor digitorium profundus, finger 4-5", ["N ulnaris"]],
+		["M flexor pollicis longus", ["N medianus"]],
+		["M pronator quadratus", ["N medianus"]],
+
+		//Radialis underarm muskler
+		["M brachioradialis", ["N radialis"]],
+		["M extensor carpi radialis longus", ["N radialis"]],
+		["M extensor carpi radialis brevis", ["N radialis"]],
+
+		//Bakre/Ekstensjon underarm overflatemuskler
+		["M extensor digitorium", ["N radialis"]],
+		["M extensor digiti minimi", ["N radialis"]],
+		["M extensor carpi ulnaris", ["N radialis"]],
+
+		//Bakre/Ekstensjon underarm dype muskler
+		["M supinator", ["N radialis"]],
+		["M abductor pollicis longus", ["N radialis"]],
+		["M extensor pollicis brevis", ["N radialis"]],
+		["M extensor pollicis longus", ["N radialis"]],
+		["M extensor indicis", ["N radialis"]],
+		
+		]
+
+		var beinMuskler = [
+		//Indre hoftemuskler
+		["M ilacus", ["N femoralis"]],
+		["M psoas major", ["Plexus lumbalis"]],
+		["M psoas minor", ["Plexus lumbalis"]],
+
+		//Vertikale ytre hoftemuskler
+		["M gluteus maximus", ["N gluteus inferior"]],
+		["M gluteus medius", ["N gluteus superior"]],
+		["M gluteus minimus", ["N gluteus superior"]],
+		["M tensor faciae lateae", ["N gluteus superior"]],
+		["M piriformis", ["Plexus sacralis"]],
+
+		//Horisontale ytre hoftemuskler
+		["M gemellus superior", ["Plexus sacralis"]],
+		["M obturatorius internus", ["Plexus sacralis"]],
+		["M gemellus inferior", ["Plexus sacralis"]],
+
+		//Adductor-gruppe
+		["M obturatorius externus", ["N obturatorius"]],
+		["M pectineus", ["N femoralis og N obturatorius"]],
+		["M adductor longus", ["N obturatorius"]],
+		["M adductor brevis", ["N obturatorius"]],
+		["M adductor maximus, dyp del", ["N obturatorius"]],
+		["M adductor maximus, overflate del", ["N tibialis"]],
+		["M adductor minumus", ["N obturtorius"]],
+		["M gracilis", ["N obturtorius"]],
+
+		//Ekstesjon-gruppe, NB: M sartorius gjør fleksjon
+		["M sartorius", ["N femoralis"]],
+		["M vastus medialis", ["N femoralis"]],
+		["M vastus intermedius", ["N femoralis"]],
+		["M vastus lateralis", ["N femoralis"]],
+		["M rectus femoris", ["N femoralis"]],
+
+		//Fleksjon-gruppe
+		["M biceps femoris caput longum", ["N tibialis"]],
+		["M biceps femoris caput breve", ["N fibularis communis"]],
+		["M semimembranosus", ["N tibialis"]],
+		["M semitendinosus", ["N tibialis"]],
+		["M popliteus", ["N tibialis"]],
+
+		//Fremre del på legg, AP
+		["M tibialis anterior", ["N fibularis profundus"]],
+		["M extensor digitorium longus", ["N fibularis profundus"]],
+		["M extensor hallucis longus", ["N fibularis profundus"]],
+		["M fibularis tertius (del av M extensor digitorium longus)", ["N fibularis profundus"]],
+
+		//Laterale/Fibulare/Peroneue del på legg, LS/FS
+		["M fibularis longus", ["N fibularis superficialis"]],
+		["M fibularis brevis", ["N fibularis superficialis"]],
+
+		//Bakre/Posterior og overflate del på legg, PT
+		["M soleus", ["N tibialis"]],
+		["M gastronemius caput laterale", ["N tibialis"]],
+		["M gastronemius caput mediale", ["N tibialis"]],
+		["M plantaris", ["N tibialis"]],
+
+		//Bakre/Posterior og dype del på legg, PT
+		["M tibialis posterior", ["N tibialis"]],
+		["M flexor digitorium longus", ["N tibialis"]],
+		["M flexor hallucis longus", ["N tibialis"]],
+		["M popliteus", ["N tibialis"]]
+		]
+
+		var nerver = [];
+		var blodårer = [];
+
+		var riktigSvar = "";
+		var riktigAlternativ = "";
+		var alternativArray = [];
+		var alternativ = "";
+		var sporsmalObjekt = "";
+
+		var antallSporsmalSpurt = 0;
+		var antallSporsmal = 0;
+		var antallRiktige = 0;
+
+	function shuffle(array) {
+		var currentIndex = array.length, temporaryValue, randomIndex;
+		// While there remain elements to shuffle...
+		while (0 !== currentIndex) {
+
+			// Pick a remaining element...
+			randomIndex = Math.floor(Math.random() * currentIndex);
+			currentIndex -= 1;
+
+			// And swap it with the current element.
+			temporaryValue = array[currentIndex];
+			array[currentIndex] = array[randomIndex];
+			array[randomIndex] = temporaryValue;
+		}
+		return array;
+	}
+
+	shuffle(skulderMuskler);
+	shuffle(armMuskler);
+	shuffle(beinMuskler);
+
+	LagSporsmal = function (muskelGruppe) {
+		console.log(muskelGruppe);
+
+		//var vilkårligTall = Math.floor(Math.random()*muskelGruppe.length);
+		if (antallSporsmalSpurt > muskelGruppe.length) {
+			antallSporsmalSpurt = 0;
+		}
+
+		console.log(antallSporsmalSpurt);
+		alternativArray = [];
+		riktigAlternativ = muskelGruppe[antallSporsmalSpurt];
+		console.log(riktigAlternativ[1][0]);
+		riktigSvar = riktigAlternativ[1][0];
+		alternativArray.push(riktigSvar);
+		for (var i = 0; i < muskelGruppe.length; i++) {
+			console.log(muskelGruppe[i][1][0]);
+			nerver.push(muskelGruppe[i][1][0]);
+		}
+
+		VelgUtFeilSvar(nerver, riktigSvar);
+		shuffle(alternativArray);
+		console.log(alternativArray);
+
+		console.log(riktigSvar);
+		VisInfo(riktigAlternativ[0]);
+		//VisSvaralternativ();
+		VisTekstBoks();
+		sporsmalObjekt = riktigAlternativ[0];
+
+		antallSporsmal += 1;
+	}
+
+	ReturnerSporsmalObjekt = function (objekt) {
+		return objekt;
+	}
+
+	VelgUtFeilSvar = function (array, riktigSvar) {
+		var arrayLengde = array.length;
+		for (var i = 0; i < 2; i++) {
+			SjekkFeilAlternativ(array);
+		}
+	}
+
+	SjekkFeilAlternativ = function (array) {
+		console.log(array);
+		alternativ = array[Math.floor(Math.random()*array.length)];
+		if (alternativArray.indexOf(alternativ) > -1) {
+			console.log("Velger Ny");
+			SjekkFeilAlternativ(array);
+		}
+		else {
+			console.log("Finnes ikke");
+			console.log(alternativ);
+			alternativArray.push(alternativ);
+		}
+	}
+
+	VisInfo = function (muskel) {
+		poeng.innerHTML = "Antall poeng: " + antallRiktige + "/" + antallSporsmal + "<br>";
+		info.innerHTML = "Hvilken nerve innerverer " + muskel + "?<br>";
+		svar.innerHTML = "";
+		inputSvar.value = "";
+		fasit.innerHTML = "";
+	}
+
+	VisTekstBoks = function () {
+		svar.appendChild(inputSvar);
+		svar.appendChild(sendSvarKnapp);
+	}
+
+	sendSvarKnapp.onclick = function () {
+		var valgtAlternativ = inputSvar.value;
+
+		if (valgtAlternativ == riktigSvar) {
+			fasit.innerHTML = "Det er korrekt, <b>" + riktigSvar + "</b> innerverer <b>" + sporsmalObjekt + "</b>.";
+			antallRiktige += 1;
+		}
+		else {
+			fasit.innerHTML = valgtAlternativ + " er feil, riktig svar er " + riktigSvar + "."
+		}
+
+		poeng.innerHTML = "Antall poeng: " + antallRiktige + "/" + antallSporsmal + "<br>";
+		svar.innerHTML = "";
+		svar.appendChild(nesteSporsmalKnapp);
+	}
+
+	VisSvaralternativ = function () {
+		svar.innerHTML = "";
+		for (var i = 0; i < alternativArray.length; i++) {
+			var knapp = document.createElement("button");
+			knapp.innerHTML = alternativArray[i];
+			svar.appendChild(knapp);
+			bindKnappTrykk(knapp, alternativArray[i])
+		}
+	}
+
+	bindKnappTrykk = function (knapp, valgtAlternativ) {
+		knapp.onclick = function () {
+			svar.innerHTML = "";
+			if (valgtAlternativ == riktigSvar) {
+				fasit.innerHTML = "Det er korrekt, " + riktigSvar + " innerverer " + sporsmalObjekt + ".";
+				antallRiktige += 1;
+			}
+			else {
+				fasit.innerHTML = valgtAlternativ + " er feil, riktig svar er " + riktigSvar + "."
+			}
+			svar.innerHTML = "";
+			svar.appendChild(nesteSporsmalKnapp);
+		}
+	}
+
+	nesteSporsmalKnapp.onclick = function () {
+		antallSporsmalSpurt += 1;
+		LagSporsmal(beinMuskler);
+	}
+
+	LagSporsmal(beinMuskler);
+
+	</script>
+</body>
+</html>
