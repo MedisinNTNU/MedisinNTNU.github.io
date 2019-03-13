@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang='de'>
+<head>
+<meta content='text/html;charset=utf-8' http-equiv='Content-Type'>
+<title>Musculus plantaris - Anatomie, Versorgung und Funktion | Kenhub</title>
+<meta content='Der Musculus plantaris ist ein langer schmaler Flexor des Unterschenkels. Lerne hier alles über Anatomie, Aufbau, Versorgung, Funktion, Klinik und mehr!
+' name='description'>
+<link as='font' crossorigin='' href='https://www.kenhub.com/assets/fonts/29357C_0_0-subset-030c8db7995dff232ddccfdd0b15b03203816b49db35b455107ed438c3535aa6.woff2' rel='preload' type='font/woff2'>
+<!-- / fixes the 401 error with http auth on staging -->
+<!-- / https://thatemil.com/blog/2018/02/21/pwa-basic-auth/ -->
+<link crossorigin='use-credentials' href='https://www.kenhub.com/assets/manifest-a7dd3a9aa61524093ec8105bc405e6bbd372f1fb7db46fe21da460b25a2550d0.json' rel='manifest'>
+<meta content='#3A5062' name='theme-color'>
+<link rel="stylesheet" media="all" href="https://www.kenhub.com/assets/site/site_essential-d922d1ded546ea150a95558864da93c6e75abbe8537769d25f596ce3a930c3aa.css" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.kenhub.com/assets/fav-1d4d85ac8e8bd55ad032099c91937275e077e3640b6e76960c1268add6f61d0e.png" />
+<noscript id='deferred_styles'>
+<link rel="stylesheet" media="all" href="https://www.kenhub.com/assets/site/site-2a9f5afefed88167c9b050e206a4e8a9d35254706f206a8f45b54137087f0a72.css" />
+</noscript>
+<script>
+//<![CDATA[
+window.gon={};gon.rails_env="production";gon.locale="de";gon.defaultLocale="en";gon.inspectlet=false;gon.disable_rollbar_js=false;gon.rollbar_capture_uncaught=true;gon.rollbar_unhandled_rejections=false;gon.current_user=null;gon.gimel_track_url="https://koqizs6ex4.execute-api.eu-west-1.amazonaws.com/prod/track";gon.gimel_namespace="gimel-production";gon.currency="EUR";gon.helpscout_beacon_token="62202356-0148-11e6-a329-0ee2467769ff";gon.amplitude_token="7dfdc0c7e548cabc5ea2459b06239302";gon.customerio_token="ead58c80bf1292049403";gon.inspectlet_token="1384320367";gon.headway_account="J3mpYx";gon.stripe_key="pk_live_zm2AZti9FDQZheRrvVNE3OUQ";gon.pusher_key="18a68882ac05cae081d3";gon.algolia_key="ecd1b6edb1faf0f04f85467983a4ab18";gon.algolia_id="TVLY4HZXH3";gon.algolia_index="production";gon.analytics_account="UA-23427352-1";gon.google_tag_manager_container="GTM-NV7F42";gon.rollbar_access_token="382cf8068f184e7abc0a58e07a4f0c45";gon.release="a5b3db9f8";gon.application_js_path="/webpack/application-e83cf8bc1db1ddd18f25.js";gon.recaptcha_site_key="6Lfqb4gUAAAAAPKFK89vW9qt-P9a_I4g3XXje1D3";gon.tracking={"landing":"articles"};gon.consumed_content={"consumed_videos":{},"consumed_articles":{},"consumed_quizzes":{},"consumed_atlas":{}};gon.skip_link_hijacking=false;gon.pricing_path="/de/pricing";
+//]]>
+</script>
+<script>
+//<![CDATA[
+/* @filename /var/local/kenhub/kenhub.d/2/app/assets/javascripts/load_deferred_assets.coffee */
+(function(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var t,e,n,o;!function(){"use strict";function t(t){u.push(t),1==u.length&&l()}function e(){for(;u.length;)u[0](),u.shift()}function r(t){this.a=f,this.b=void 0,this.f=[];var e=this;try{t(function(t){a(e,t)},function(t){s(e,t)})}catch(n){s(e,n)}}function n(n){return new r(function(t,e){e(n)})}function c(e){return new r(function(t){t(e)})}function a(e,t){if(e.a==f){if(t==e)throw new TypeError;var n=!1;try{var o=t&&t.then;if(null!=t&&"object"==typeof t&&"function"==typeof o)return void o.call(t,function(t){n||a(e,t),n=!0},function(t){n||s(e,t),n=!0})}catch(i){return void(n||s(e,i))}e.a=0,e.b=t,d(e)}}function s(t,e){if(t.a==f){if(e==t)throw new TypeError;t.a=1,t.b=e,d(t)}}function d(r){t(function(){if(r.a!=f)for(;r.f.length;){var t=(o=r.f.shift())[0],e=o[1],n=o[2],o=o[3];try{0==r.a?n("function"==typeof t?t.call(void 0,r.b):r.b):1==r.a&&("function"==typeof e?n(e.call(void 0,r.b)):o(r.b))}catch(i){o(i)}}})}function o(a){return new r(function(n,t){function e(e){return function(t){i[e]=t,(o+=1)==a.length&&n(i)}}var o=0,i=[];0==a.length&&n(i);for(var r=0;r<a.length;r+=1)c(a[r]).c(e(r),t)})}function i(o){return new r(function(t,e){for(var n=0;n<o.length;n+=1)c(o[n]).c(t,e)})}var l,u=[];l=function(){setTimeout(e)};var f=2;r.prototype.g=function(t){return this.c(void 0,t)},r.prototype.c=function(n,o){var i=this;return new r(function(t,e){i.f.push([n,o,t,e]),d(i)})},window.Promise||(window.Promise=r,window.Promise.resolve=c,window.Promise.reject=n,window.Promise.race=i,window.Promise.all=o,window.Promise.prototype.then=r.prototype.c,window.Promise.prototype["catch"]=r.prototype.g)}(),function(){function i(t,e){document.addEventListener?t.addEventListener("scroll",e,!1):t.attachEvent("scroll",e)}function n(t){document.body?t():document.addEventListener?document.addEventListener("DOMContentLoaded",function e(){document.removeEventListener("DOMContentLoaded",e),t()}):document.attachEvent("onreadystatechange",function n(){"interactive"!=document.readyState&&"complete"!=document.readyState||(document.detachEvent("onreadystatechange",n),t())})}function b(t){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(t)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function x(t,e){t.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;white-space:nowrap;font-synthesis:none;font:"+e+";"}function r(t){var e=t.a.offsetWidth,n=e+100;return t.f.style.width=n+"px",t.c.scrollLeft=n,t.b.scrollLeft=t.b.scrollWidth+100,t.g!==e&&(t.g=e,!0)}function E(t,e){function n(){var t=o;r(t)&&t.a.parentNode&&e(t.g)}var o=t;i(t.b,n),i(t.c,n),r(t)}function t(t,e){var n=e||{};this.family=t,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function o(){if(null===e)if(a()&&/Apple/.test(window.navigator.vendor)){var t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/.exec(window.navigator.userAgent);e=!!t&&parseInt(t[1],10)<603}else e=!1;return e}function a(){return null===d&&(d=!!document.fonts),d}function c(){if(null===s){var t=document.createElement("div");try{t.style.font="condensed 100px sans-serif"}catch(e){}s=""!==t.style.font}return s}function P(t,e){return[t.style,t.weight,c()?t.stretch:"","100px",e].join(" ")}var T=null,e=null,s=null,d=null;t.prototype.load=function(t,e){var w=this,m=t||"BESbswy",v=0,y=e||3e3,g=(new Date).getTime();return new Promise(function(h,p){if(a()&&!o()){var t=new Promise(function(e,t){function n(){(new Date).getTime()-g>=y?t():document.fonts.load(P(w,'"'+w.family+'"'),m).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),e=new Promise(function(t,e){v=setTimeout(e,y)});Promise.race([e,t]).then(function(){clearTimeout(v),h(w)},function(){p(w)})}else n(function(){function e(){var t;(t=-1!=a&&-1!=c||-1!=a&&-1!=s||-1!=c&&-1!=s)&&((t=a!=c&&a!=s&&c!=s)||(null===T&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),T=!!t&&(parseInt(t[1],10)<536||536===parseInt(t[1],10)&&parseInt(t[2],10)<=11)),t=T&&(a==d&&c==d&&s==d||a==l&&c==l&&s==l||a==u&&c==u&&s==u)),t=!t),t&&(f.parentNode&&f.parentNode.removeChild(f),clearTimeout(v),h(w))}function n(){if((new Date).getTime()-g>=y)f.parentNode&&f.parentNode.removeChild(f),p(w);else{var t=document.hidden;!0!==t&&void 0!==t||(a=o.a.offsetWidth,c=i.a.offsetWidth,s=r.a.offsetWidth,e()),v=setTimeout(n,50)}}var o=new b(m),i=new b(m),r=new b(m),a=-1,c=-1,s=-1,d=-1,l=-1,u=-1,f=document.createElement("div");f.dir="ltr",x(o,P(w,"sans-serif")),x(i,P(w,"serif")),x(r,P(w,"monospace")),f.appendChild(o.a),f.appendChild(i.a),f.appendChild(r.a),document.body.appendChild(f),d=o.a.offsetWidth,l=i.a.offsetWidth,u=r.a.offsetWidth,n(),E(o,function(t){a=t,e()}),x(o,P(w,'"'+w.family+'",sans-serif')),E(i,function(t){c=t,e()}),x(i,P(w,'"'+w.family+'",serif')),E(r,function(t){s=t,e()}),x(r,P(w,'"'+w.family+'",monospace'))})})},"object"==typeof module?module.exports=t:(window.FontFaceObserver=t,window.FontFaceObserver.prototype.load=t.prototype.load)}(),
+
+t=function(){
+return Promise.all([new FontFaceObserver("PlutoSansRegular").load(),new FontFaceObserver("PlutoSansLight").load(),new FontFaceObserver("PlutoSansMedium").load(),new FontFaceObserver("PlutoLightItalic").load(),new FontFaceObserver("PlutoRegularItalic").load()])},
+
+
+e=function(){if(
+!window.gon.current_user
+)return o("deferred_styles")},
+
+
+
+o=function(t){
+var e,n,o,i,r,a;for(
+i=document.getElementById(t),(
+a=document.createElement("div")
+).innerHTML=i.textContent,
+
+n=0,o=(r=a.children).length;n<o;n++
+)e=r[n],
+i.parentNode.insertBefore(e.cloneNode(),i)
+
+;return i.remove()},
+
+
+new FontFaceObserver("PlutoSansRegularSubset").load().then(t,t).then(e,e),
+
+n=function(){
+var t,e;return(
+t=document.createElement("script")
+).type="text/javascript",
+t.async=!0,
+t.crossorigin="Anonymous",
+t.src=window.gon.application_js_path,(
+e=document.getElementsByTagName("script")[0]
+).parentNode.insertBefore(t,e)},
+
+
+window.gon.current_user||(
+
+window.addEventListener?window.addEventListener("load",n,!1
+
+):window.attachEvent?window.attachEvent("onload",n
+
+):window.onload=n)}).call(
+
+
+
+this);
+//]]>
+</script>
+<script src="https://www.kenhub.com/webpack/essential-030b8eb5120fd42e03e9.js" crossorigin="Anonymous"></script>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="+o/MR96WyY7SqPFaSpPQbXWlg0CJjW5xame0KJYEW8SKKU5EefytddYrxPbhs+xb9tbucsR3oS1FEnzy5+83kg==" />
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta content='de' name='language'>
+<meta content='246420115467395' property='fb:app_id'>
+<meta content='Kenhub' property='og:site_name'>
+<meta content='https://www.kenhub.com/de/library/anatomie/musculus-plantaris' property='og:url'>
+<meta content='Der Musculus plantaris ist ein langer schmaler Flexor des Unterschenkels. Lerne hier alles über Anatomie, Aufbau, Versorgung, Funktion, Klinik und mehr!
+' property='og:description'>
+<meta content='Musculus plantaris' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='https://thumbor.kenhub.com/B14pN2NKONL4ZCpAgUYAMUaEaBM=/fit-in/800x1600/filters:watermark(/images/logo_url.png,-10,-10,0):background_color(FFFFFF):format(jpeg)/images/article/de/musculus-plantaris/5m8DSPQjlUszYmqkOj3g_M_plantaris.png' property='og:image'>
+
+<link rel="canonical" href="https://www.kenhub.com/de/library/anatomie/musculus-plantaris" />
+
+<link href='https://plus.google.com/108632037155622326172' rel='publisher'>
+<meta content='100009096347916' property='fb:admins'>
+<link href='https://www.kenhub.com/assets/kenhub-57x57-46b06a92e5158f319e3c1ac650002c286f2a831ac6a0ac5c824c933e04b09c18.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='https://www.kenhub.com/assets/kenhub-72x72-c357da1d3313c3ab2ea2f05e98f0d885db0d14b612ecab87b56fecd5a7905722.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='https://www.kenhub.com/assets/kenhub-76x76-b1e89dcf86fd3c6738f72b5a9918cffa7f0876e468dfaf22e1379301b7ec6d44.png' rel='apple-touch-icon' sizes='76x76'>
+<link href='https://www.kenhub.com/assets/kenhub-114x114-db178ba62a72731e1876f675bcdbcf7a4f59fe23e32fb1de718c572334afdb99.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='https://www.kenhub.com/assets/kenhub-120x120-9f8fae35fd85e9657b488012718e83161040e8c039d414c4e0541ef7ae9cde7b.png' rel='apple-touch-icon' sizes='120x120'>
+<link href='https://www.kenhub.com/assets/kenhub-144x144-e0d7593e7cca793f5e8e78bca9ea97e416c351ef043e04b10b3a727664e2ab94.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='https://www.kenhub.com/assets/kenhub-152x152-d1821c80a394cd1187053606b7a2934de01b3e5f699695a31568c4c6a8bebee7.png' rel='apple-touch-icon' sizes='152x152'>
+<link rel="alternate" hreflang="de" href="https://www.kenhub.com/de/library/anatomie/musculus-plantaris" />
+
+</head>
+<body class='articles show
+'>
+<div class='l-topbar-mobile l-container'>
+<div class='mobile-logo'>
+<a href="/de"><img title="Kenhub" src="https://www.kenhub.com/assets/logo_icon-972aee1e134a66755d1a25bdb489cb90af67efad68a039a25d5fb284e3c340c5.png" /></a>
+
+
+<div class='changelog-container'></div>
+</div>
+<div class='nav-mobile-icons'>
+<i class='fa fa-bars toggle-button'></i>
+</div>
+</div>
+
+<div class='l-navigation-mobile hide' id='menu'>
+<div class='nav-mobile'>
+<div class='nav-mobile__topbar'>
+<a data-toggle="modal" class="nav-mobile__topbar-text pull-left" href="#modal_login">Login</a>
+<a data-track="registration clicked" data-track-element="site nav mobile" class="btn btn-primary btn--mobile-sidebar pull-right" href="/de/register">Registrieren</a>
+</div>
+<div class='divider'></div>
+<ul>
+<li>
+<a class=" nav-mobile__anchor" data-track="pricing page clicked" data-track-element="site nav mobile" href="/de/pricing"><i class='fa fa-credit-card'></i>
+Preise
+</a></li>
+<li>
+<a class="active" href="/de/start/anatomy"><i class='fa fa-folder'></i>
+Anatomie
+</a><i class='fa fa-caret-right'></i>
+<ul>
+<li><a class="" href="/de/start/basics">Grundlagen</a></li>
+<li><a class="" href="/de/start/upper-extremity">Obere Extremität</a></li>
+<li><a class="active" href="/de/start/lower-extremity">Untere Extremität</a></li>
+<li><a class="" href="/de/start/trunk">Rumpfwand</a></li>
+<li><a class="" href="/de/start/head-neck">Kopf &amp; Hals</a></li>
+<li><a class="" href="/de/start/thorax">Thorax</a></li>
+<li><a class="" href="/de/start/abdomen-pelvis">Abdomen &amp; Becken</a></li>
+<li><a class="" href="/de/start/neuroanatomy">Neuroanatomie</a></li>
+<li><a class="" href="/de/start/cross-sections">Schnittbildanatomie</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/de/start/histology"><i class='fa fa-folder'></i>
+Histologie
+</a><i class='fa fa-caret-right'></i>
+<ul class='closed'>
+<li><a class="" href="/de/start/general-histology">Grundlagen</a></li>
+<li><a class="" href="/de/start/systems-histology">Organssysteme</a></li>
+<li><a class="" href="/de/start/fetal-histology">Embryologisches Gewebe</a></li>
+</ul>
+</li>
+<li>
+<a class="" href="/de/start/medical-imaging"><i class='fa fa-folder'></i>
+Bildgebung
+</a><i class='fa fa-caret-right'></i>
+<ul class='closed'>
+<li><a class="" href="/de/start/imaging-head-and-neck"> Kopf &amp; Hals</a></li>
+<li><a class="" href="/de/start/imaging-abdomen-pelvis">Abdomen &amp; Becken</a></li>
+<li><a class="" href="/de/start/imaging-upper-limb">Obere Extremität</a></li>
+<li><a class="" href="/de/start/imaging-lower-limb">Untere Extremität</a></li>
+<li><a class="" href="/de/start/imaging-thorax">Thorax</a></li>
+</ul>
+</li>
+</ul>
+<div class='divider'></div>
+<a class="nav-mobile__anchor nav-mobile__anchor--small" href="/en/library/anatomy">Englisch
+</a><a class="nav-mobile__anchor nav-mobile__anchor--small" href="/pt/library/anatomia">Portugiesisch
+</a><a role="button" class="nav-mobile__anchor nav-mobile__anchor--small" href="/de/contact">Kontakt
+</a><a class="nav-mobile__anchor nav-mobile__anchor--small" href="/de/help">Besser lernen</a>
+</div>
+</div>
+
+
+<div class='middlebar--stickem-container' id='panel'><div class='l-topbar'>
+<a class='changelog-container'></a>
+<a class="logo" href="/de"><img title="Kenhub" src="https://www.kenhub.com/assets/logo2x-184bad95d33bdc8c1c67e7fe032822b5b19f69bc08a587058aeb059793012adf.jpg" /></a>
+<span class='language-selector'>
+<a href="/en/library/anatomy">EN</a> | DE | <a href="/pt/library/anatomia">PT</a>
+</span>
+<a role="button" href="/de/contact">Kontakt
+</a><a data-track="help link clicked" href="/de/help">Besser lernen</a>
+<a data-toggle="modal" href="#modal_login">Login
+</a><a data-track="registration clicked" data-track-element="top bar" href="/de/register">Registrieren
+</a>
+
+</div>
+
+<div data-logo-image-big-path='https://www.kenhub.com/assets/logo-9020cd73149c38a7ae2a8908225b5279bf7c54960c5a787b76403bf2bb46199c.png' data-logo-image-small-path='https://www.kenhub.com/assets/logo_icon_big-45361e003cbefab2656d1ad760fa418453132439f1f78f9adedd249a15e9e382.png' data-root-path='/de' id='fullscreen_search_container'></div>
+<div class='l-hero l-hero--small'>
+<div class='l-meta l-container'>
+<div class='l-navigation'>
+<div class='l-navigation__item'>
+<a class="" data-track="pricing page clicked" data-track-element="site navigation" href="/de/pricing">Preise</a>
+</div>
+<div class='l-navigation__item'>
+<a class="active" href="/de/start/anatomy">Anatomie</a>
+<div class='popover bottom fade in'>
+<div class='arrow'></div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/basics">Grundlagen</a>
+<div class='popover fade in'>
+<a href="/de/start/basics#terminology">Terminologie</a>
+<a href="/de/start/basics#first-look-at-anatomy">Einblick - Knochen &amp; Muskeln</a>
+<a href="/de/start/basics#first-look-at-neurovasculature">Einblick - Blutgefäße &amp; Nerven</a>
+<a href="/de/start/basics#first-look-at-systems">Überblick über die Organsysteme</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/upper-extremity">Obere Extremität</a>
+<div class='popover fade in'>
+<a href="/de/start/upper-extremity#shoulder-and-arm">Schulter und Arm</a>
+<a href="/de/start/upper-extremity#elbow-and-forearm">Ellenbogen und Unterarm</a>
+<a href="/de/start/upper-extremity#wrist-and-hand">Hand und Handgelenk</a>
+<a href="/de/start/upper-extremity#neurovasculature-of-the-upper-limb">Nerven und Blutgefäße der oberen Extremität</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="active" href="/de/start/lower-extremity">Untere Extremität</a>
+<div class='popover fade in'>
+<a href="/de/start/lower-extremity#hip-and-thigh">Hüfte und Oberschenkel</a>
+<a href="/de/start/lower-extremity#knee-and-leg">Knie und Bein</a>
+<a href="/de/start/lower-extremity#ankle-and-foot">Fuß und Sprunggelenk</a>
+<a href="/de/start/lower-extremity#neurovasculature-of-the-lower-limb">Nerven und Gefäße der unteren Extremität</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/trunk">Rumpfwand</a>
+<div class='popover fade in'>
+<a href="/de/start/trunk#vertebral-column">Wirbelsäule</a>
+<a href="/de/start/trunk#dorsal-trunk">Hinterer Rumpf</a>
+<a href="/de/start/trunk#ventral-trunk">Vorderer Rumpf</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/head-neck">Kopf &amp; Hals</a>
+<div class='popover fade in'>
+<a href="/de/start/head-neck#skull">Schädel</a>
+<a href="/de/start/head-neck#head">Kopf</a>
+<a href="/de/start/head-neck#orbit-and-contents">Orbita</a>
+<a href="/de/start/head-neck#nasal-region">Nasenregion</a>
+<a href="/de/start/head-neck#ear">Ohr</a>
+<a href="/de/start/head-neck#teeth">Zähne</a>
+<a href="/de/start/head-neck#tongue">Mundhöhle</a>
+<a href="/de/start/head-neck#pharynx">Pharynx</a>
+<a href="/de/start/head-neck#neck">Hals</a>
+<a href="/de/start/head-neck#neurovasculature-of-the-head-and-neck">Nerven und Blutgefäße von Kopf und Hals</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/thorax">Thorax</a>
+<div class='popover fade in'>
+<a href="/de/start/thorax#female-breast">Weibliche Brust</a>
+<a href="/de/start/thorax#mediastinum">Mediastinum</a>
+<a href="/de/start/thorax#esophagus">Speiseröhre</a>
+<a href="/de/start/thorax#lungs">Lunge</a>
+<a href="/de/start/thorax#heart">Herz</a>
+<a href="/de/start/thorax#diaphragm">Zwerchfell</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/abdomen-pelvis">Abdomen &amp; Becken</a>
+<div class='popover fade in'>
+<a href="/de/start/abdomen-pelvis#peritoneal-cavity">Peritonealhöhle</a>
+<a href="/de/start/abdomen-pelvis#stomach">Magen</a>
+<a href="/de/start/abdomen-pelvis#spleen">Milz</a>
+<a href="/de/start/abdomen-pelvis#liver">Leber</a>
+<a href="/de/start/abdomen-pelvis#pancreas">Pankreas</a>
+<a href="/de/start/abdomen-pelvis#small-intestine">Dünndarm</a>
+<a href="/de/start/abdomen-pelvis#large-intestine">Dickdarm</a>
+<a href="/de/start/abdomen-pelvis#kidneys">Niere</a>
+<a href="/de/start/abdomen-pelvis#ureter-anatomy">Harnleiter</a>
+<a href="/de/start/abdomen-pelvis#pelvis">Becken</a>
+<a href="/de/start/abdomen-pelvis#urinary-bladder">Harnblase</a>
+<a href="/de/start/abdomen-pelvis#female-reproductive-organs">Weibliche Geschlechtsorgane</a>
+<a href="/de/start/abdomen-pelvis#male-reproductive-organs">Männliche Geschlechtsorgane</a>
+<a href="/de/start/abdomen-pelvis#blood-vessels-of-the-abdomen-and-pelvis">Gefäße von Abdomen &amp; Becken</a>
+<a href="/de/start/abdomen-pelvis#lymphatics-of-abdomen-and-pelvis">Lymphabfluss von Abdomen &amp; Becken</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/neuroanatomy">Neuroanatomie</a>
+<div class='popover fade in'>
+<a href="/de/start/neuroanatomy#cerebrum">Großhirn</a>
+<a href="/de/start/neuroanatomy#subcortical-structures">Subcorticale Strukturen</a>
+<a href="/de/start/neuroanatomy#cerebellum-and-brainstem">Kleinhirn und Hirnstamm</a>
+<a href="/de/start/neuroanatomy#meninges-and-blood-vessels-of-the-brain">Hirnhäute &amp; Blutgefäße des Gehirns</a>
+<a href="/de/start/neuroanatomy#spinal-cord">Rückenmark</a>
+<a href="/de/start/neuroanatomy#pathways-of-the-nervous-system">Bahnen des Nervensystems</a>
+<a href="/de/start/neuroanatomy#cranial-nerves">Hirnnerven</a>
+<a href="/de/start/neuroanatomy#anatomy-of-the-peripheral-nervous-system">Peripheres Nervensystem</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/cross-sections">Schnittbildanatomie</a>
+<div class='popover fade in'>
+<a href="/de/start/cross-sections#head-and-neck">Kopf &amp; Hals</a>
+<a href="/de/start/cross-sections#upper-extremity-cross-section">Obere Extremität</a>
+<a href="/de/start/cross-sections#thorax-cross-section">Thorax</a>
+<a href="/de/start/cross-sections#abdomen">Abdomen</a>
+<a href="/de/start/cross-sections#male-pelvis">Männliches Becken</a>
+<a href="/de/start/cross-sections#female-pelvis">Weibliches Becken</a>
+<a href="/de/start/cross-sections#lower-extremity-cross-section">Untere Extremität</a>
+</div>
+</div>
+</div>
+</div>
+<div class='l-navigation__item'>
+<a class="" href="/de/start/histology">Histologie</a>
+<div class='popover bottom fade in'>
+<div class='arrow'></div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/general-histology">Grundlagen</a>
+<div class='popover fade in'>
+<a href="/de/start/general-histology#introduction-to-cells-and-tissues">Einführung in die Zell- und Gewebearten</a>
+<a href="/de/start/general-histology#connective-tissue">Bindegewebe</a>
+<a href="/de/start/general-histology#peripheral-nervous-tissue">Nervengewebe</a>
+<a href="/de/start/general-histology#muscle-tissue">Muskelgewebe</a>
+<a href="/de/start/general-histology#cartilage-and-bone">Knorpel und Knochen</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/systems-histology">Organssysteme</a>
+<div class='popover fade in'>
+<a href="/de/start/systems-histology#cardiovascular-system">Herz-Kreislauf-System</a>
+<a href="/de/start/systems-histology#histology-of-the-nervous-system">Das Nervensystem</a>
+<a href="/de/start/systems-histology#histology-of-the-integumentary-system">Haut und Hautanhangsgebilde</a>
+<a href="/de/start/systems-histology#histology-musculoskeletal-system">Das muskuloskelettale System</a>
+<a href="/de/start/systems-histology#histology-of-the-respiratory-system">Respiratorisches System</a>
+<a href="/de/start/systems-histology#histology-of-the-excretory-system">Harnorgane</a>
+<a href="/de/start/systems-histology#histology-of-the-endocrine-system">Das endokrine System</a>
+<a href="/de/start/systems-histology#histology-of-the-digestive-system">Verdauungssystem</a>
+<a href="/de/start/systems-histology#histology-lymphatic-system">Lymphatische System</a>
+<a href="/de/start/systems-histology#histology-of-the-male-reproductive-system">Männliches Fortpflanzungssystem</a>
+<a href="/de/start/systems-histology#histology-female-reproductive-system">Weibliches Fortpflanzungssystem</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/fetal-histology">Embryologisches Gewebe</a>
+<div class='popover fade in'>
+<a href="/de/start/fetal-histology#histology-of-the-fetal-head-and-neck">Kopf und Hals</a>
+<a href="/de/start/fetal-histology#histology-of-the-fetal-trunk-and-limbs">Rumpfwand und Extremitäten</a>
+</div>
+</div>
+</div>
+</div>
+<div class='l-navigation__item'>
+<a class="" href="/de/start/medical-imaging">Bildgebung</a>
+<div class='popover bottom fade in'>
+<div class='arrow'></div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/imaging-head-and-neck"> Kopf &amp; Hals</a>
+<div class='popover fade in'>
+<a href="/de/start/imaging-head-and-neck#head-axial-ct">Kopf - axiale CT</a>
+<a href="/de/start/imaging-head-and-neck#brain-axial-mri-t2">Gehirn - axiale MRT T2</a>
+<a href="/de/start/imaging-head-and-neck#mri-t2-axial-head">Gesicht - axiale MRT T2</a>
+<a href="/de/start/imaging-head-and-neck#neck-axial-ct">Hals - Axiales CT</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/imaging-abdomen-pelvis">Abdomen &amp; Becken</a>
+<div class='popover fade in'>
+<a href="/de/start/imaging-abdomen-pelvis#abdomen-mri-t2-axial">Abdomen - axiale MRT T2</a>
+<a href="/de/start/imaging-abdomen-pelvis#abdomen-axial-ct">Abdomen - axiales CT</a>
+<a href="/de/start/imaging-abdomen-pelvis#female-pelvis-axial-ct">Weibliches Becken - axiales CT</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/imaging-upper-limb">Obere Extremität</a>
+<div class='popover fade in'>
+<a href="/de/start/imaging-upper-limb#mri-pd-axial-shoulder">Schulter - axiale MRT PD</a>
+<a href="/de/start/imaging-upper-limb#mri-t1-axial-wrist">Handgelenk - axiales MRT, T1</a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/imaging-lower-limb">Untere Extremität</a>
+<div class='popover fade in'>
+<a href="/de/start/imaging-lower-limb#mri-pd-axial-knee">Knie - axiale MRT </a>
+</div>
+</div>
+<div class='l-navigation__sub-item'>
+<a class="" href="/de/start/imaging-thorax">Thorax</a>
+<div class='popover fade in'>
+<a href="/de/start/imaging-thorax#chest-x-ray">Röntgen Thorax</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class='middlebar middlebar--stickem'>
+<div class='l-container'>
+<div class='l-row'>
+<form action="/de/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<input type="text" name="q" placeholder="Suche..." />
+<button name="button" type="submit"><i class='fa fa-search'></i>
+</button></form>
+
+
+<div class='breadcrumbs'>
+<a href="/de/start/anatomy">Anatomie</a><i class="fa fa-caret-right"></i><a href="/de/start/lower-extremity">Untere Extremität</a><i class="fa fa-caret-right"></i><a href="/de/start/lower-extremity#knee-and-leg">Knie und Bein</a>
+
+</div>
+<div class='sidebar-toggle'>
+<a data-toggle-sidebar=''>
+<i class='circle circle-small gray fa fa-chevron-down'></i>
+<span>Musculus plantaris
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class='filterbar hide'>
+<div class='l-container'>
+<div class='l-row'></div>
+</div>
+</div>
+</div>
+<div class='l-main l-container' data-stickem=''>
+<div class='l-row stickem-container'>
+<div class='sidebar'>
+<div class='sub-navigation stickem'>
+<ul class='page-menu'></ul>
+<div class='ebook-promotion ebook-promotion--sidebar hide'>
+<div class='well'>
+<p class='tiny'>
+<a data-track="registration clicked" data-track-element="ebook_promotion" href="/de/registration-ebook">Jetzt registrieren</a>
+und gratis Anatomie-Lernguide eBook erhalten!
+</p>
+<a data-track="registration clicked" data-track-element="ebook_promotion" href="/de/registration-ebook"><noscript><img src="https://www.kenhub.com/assets/sidebar/sidebar_ebook_trimmed_de-b86c5d7f35e89255d2c2112a1bc39c6166ba47930c292c2dd750c3a54e6ec3ff.png" /></noscript>
+</a></div>
+
+</div>
+<a class="btn btn-primary btn--premium hide" data-track="pricing page clicked" data-track-element="badge sidebar" href="/de/pricing">Premium werden</a>
+
+</div>
+</div>
+<div class='span9 content'>
+<script>
+  (function() {
+    var base;
+  
+    (base = window.gon).tracking || (base.tracking = {});
+  
+    window.gon.tracking.article = {
+      "slug": "musculus-plantaris",
+      "content_types": ["muscles"],
+      "premium": true,
+      "section_slug": "anatomy",
+      "lecture_slug": "lower-extremity",
+      "chapter_slug": "knee-and-leg"
+    };
+  
+    window.gon.tracking.page_view = "article read";
+  
+  }).call(this);
+</script>
+<script type='application/ld+json'>
+{"@context":"http://schema.org","@type":"Article","headline":"Musculus plantaris","alternativeHeadline":"Musculus plantaris - Anatomie, Versorgung und Funktion","image":["https://thumbor.kenhub.com/GxYrK4lP_5Q9l4BJLJ3TLH5XoYc=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-plantaris/5m8DSPQjlUszYmqkOj3g_M_plantaris.png"],"datePublished":"2016-03-22T12:31:11Z","description":"Der Musculus plantaris ist ein langer schmaler Flexor des Unterschenkels. Lerne hier alles über Anatomie, Aufbau, Versorgung, Funktion, Klinik und mehr!","dateModified":"2019-03-11T18:21:41Z","author":{"@type":"Organization","name":"Kenhub","logo":{"@type":"imageObject","url":"https://www.kenhub.com/assets/logo-kenhub-250x250-3db1d740da809c075279bd519ad01dc7134ad8ae8aea7927b673ff3c76561d41.png"}},"publisher":{"@type":"Organization","name":"Kenhub","logo":{"@type":"imageObject","url":"https://www.kenhub.com/assets/logo-kenhub-250x250-3db1d740da809c075279bd519ad01dc7134ad8ae8aea7927b673ff3c76561d41.png"}},"mainEntityOfPage":"https://www.kenhub.com/de/library/anatomie/musculus-plantaris"}
+</script>
+<div class='learn-more-card'>
+<div class='cta-content'>
+<p class='title'>
+Du willst mehr über das Thema Musculus plantaris lernen?
+</p>
+<p>Unsere Videotutorials, interaktiven Trainings, weiterführenden Artikel und ein HD Atlas lassen dich Prüfungen mit Bestnoten bestehen.</p>
+<p>Erstelle heute dein kostenloses Konto und trete in die Fußstapfen von über 998.351 erfolgreichen Anatomielernern.</p>
+</div>
+<div class='text-center'>
+<a class="btn btn-primary text-center" data-track="registration clicked" data-track-element="learn more card" href="/de/register">Erstelle dein kostenloses Konto</a>
+</div>
+<p class='testimonial-section'>
+<quote>
+”Ich kann ernsthaft behaupten, dass Kenhub meine Lernzeit halbiert hat.”
+–
+<a href="/de/success-stories">Mehr lesen.</a>
+</quote>
+<img class="profile-picture" alt="Kim Bengochea" src="https://www.kenhub.com/assets/success_stories/kim/profile-2a1ff5df33933ced963be0b12b1f5c6841fca1af901838270634217b3a1d88df.png" />
+<span class='student-info'>Kim Bengochea, Regis University, Denver</span>
+</p>
+</div>
+
+<article>
+<h1>Musculus plantaris</h1>
+<p>Der <strong>Musculus plantaris</strong> (<strong>Fußsohlenmuskel</strong>) ist ein langer schmaler <a href="https://www.kenhub.com/de/library/anatomie/die-muskeln-des-menschen">Muskel</a>.</p>
+
+<p>Er befindet sich dorsal im Bereich des <a href="https://www.kenhub.com/de/library/anatomie/das-kniegelenk">Kniegelenks</a> und gilt als der kleinste Beuger der Unterschenkelmuskulatur.</p>
+
+<div class='well well--toc'>
+<div class='well--toc__headline'>Inhalt</div>
+<ol><li><a href='#section1'>Verlauf und Versorgung</a></li><li><a href='#section2'>Funktion</a></li><li><a href='#section3'>Pathologie</a></li><li><a href='#atlas_galleries'><i class="fa fa-picture-o"></i> Relevante Grafiken und Bilder</a></li></ol>
+</div>
+<div class="embedded-video" data-video-id="95">
+<div class="embedded-video--video spinner">
+<noscript>
+<iframe allowfullscreen="" data-video-tracking='{"slug":"posterior-leg-muscles","content_types":["muscle-facts","muscles"],"premium":true,"section_slug":"anatomy","lecture_slug":"lower-extremity","chapter_slug":"knee-and-leg","embedded":"article"}' data-vimeo-video="true" frameborder="0" height="9" id="videos_vimeo_player_posterior-leg-muscles" mozallowfullscreen="" src="https://player.vimeo.com/video/258247585" webkitallowfullscreen="" width="16"></iframe>
+</noscript>
+</div>
+<div class="embedded-video--content" title="Flexoren des Unterschenkels">
+<div class="embedded-video--title">
+Videoempfehlung: Flexoren des Unterschenkels
+</div>
+<div class="embedded-video--description">Ursprung, Ansatz, Innervation und Funktion der oberflächlichen und tiefen Muskeln Flexorenloge.</div>
+</div>
+</div>
+
+<section id="section1"><h2>Verlauf und Versorgung</h2>
+
+<p>Der M. plantaris hat seinen Ursprung an der <strong>Linea supracondylaris lateralis</strong> am <a href="https://www.kenhub.com/de/library/anatomie/femur-oberschenkelknochen">Femur</a> und verläuft zwischen dem <a href="https://www.kenhub.com/de/library/anatomie/musculus-triceps-surae">M. gastrocnemius</a> und dem <a href="/de/library/anatomie/musculus-triceps-surae">M. soleus</a>. Im Bereich der Kniekehle bildet er einen kleinen Muskelbauch und geht dann in eine lange Sehne über. Die Fasern dieser Sehne setzen an der <strong>Faszie des M. soleus</strong>, der <strong>Achillessehne</strong> sowie am <strong>Calcaneus</strong> an.</p>
+
+<p>Der M. plantaris wird durch den <strong><a href="https://www.kenhub.com/de/library/anatomie/nervus-tibialis">Nervus tibialis</a></strong>, einem Ast des <a href="https://www.kenhub.com/de/library/anatomie/der-plexus-lumbosacralis">Plexus sacralis</a>, innerviert.</p>
+
+<p></p>
+<div class="image-with-caption-center-wrapper"><div class="image-with-caption image-center">
+<div class="image-with-caption__img"><noscript><img alt="Musculus plantaris (dorsomediale Ansicht)" crossorigin="anonymous" src="https://thumbor.kenhub.com/eiddZKT3hfuUFJQglqmfzaVNCnA=/fit-in/800x1600/filters:watermark(/images/logo_url.png,-10,-10,0):background_color(FFFFFF):format(jpeg)/images/library/4856/M_plantaris.png" title="Musculus plantaris (dorsomediale Ansicht)"></noscript></div>
+<p>Musculus plantaris (dorsomediale Ansicht)</p>
+</div></div>
+
+</section><section id="section2"><h2>Funktion</h2>
+
+<p>Aufgrund seiner Lage und Größe hat der M.plantaris nur eine geringe muskeltypische Funktion. So dient er lediglich als <strong>Unterstützung bei der Innenrotation</strong> <strong>des Unterschenkels</strong>, der <strong>Flexion im Kniegelenk</strong> sowie der <strong>Plantarflexion im <a href="https://www.kenhub.com/de/library/anatomie/das-sprunggelenk">Sprunggelenk</a></strong>. Die vermutliche Hauptfunktion ist die <strong>Propriozeption</strong>, die wegen der hohen Rezeptorendichte im Muskel geschlussfolgert wird.</p>
+
+<p></p>
+<div class="image-with-caption-center-wrapper"><div class="image-with-caption image-center">
+<div class="image-with-caption__img"><noscript><img alt="Musculus plantaris (Querschnittanatomie)" crossorigin="anonymous" src="https://thumbor.kenhub.com/5Ix9jc2sVqZTfSrlccnULO8iEkI=/fit-in/800x1600/filters:watermark(/images/logo_url.png,-10,-10,0):background_color(FFFFFF):format(jpeg)/images/library/4858/Plantaris_cross_sectional.png" title="Musculus plantaris (Querschnittanatomie)"></noscript></div>
+<p>Musculus plantaris (Querschnittanatomie)</p>
+</div></div>
+</section>
+<div class='well well--infobox'>
+<section id="section3"><h2>Pathologie</h2>
+
+<p>Bei der Ausübung sehr dynamischer Sportarten (z.B. Volleyball, Tennis oder Handball) treten häufig Verletzungen beim Rennen und Springen auf. Als Teil der Unterschenkelmuskulatur kann der M. plantaris im Rahmen des so genannten <strong>Tennisbeins</strong> betroffen sein.</p>
+
+<p>Es handelt sich dabei typischerweise um einen <strong>Riss in der Muskulatur</strong> zusammen mit einer <strong>Verletzung des medialen Gastrocnemiuskopfes</strong>. Kennzeichnend sind ein plötzlich stechender Schmerz mit anschließend allmählich stärker werdenden Knieschmerzen, die bis in das Sprungbein und den Fuß ausstrahlen. Auch eine Schwellung kann zusätzlich auf die Verletzung hinweisen.</p>
+</section>
+</div>
+</article>
+<div class='learn-more-card'>
+<div class='cta-content'>
+<p class='title'>
+Du willst mehr über das Thema Musculus plantaris lernen?
+</p>
+<p>Unsere Videotutorials, interaktiven Trainings, weiterführenden Artikel und ein HD Atlas lassen dich Prüfungen mit Bestnoten bestehen.</p>
+<p>Erstelle heute dein kostenloses Konto und trete in die Fußstapfen von über 998.351 erfolgreichen Anatomielernern.</p>
+</div>
+<div class='text-center'>
+<a class="btn btn-primary text-center" data-track="registration clicked" data-track-element="learn more card" href="/de/register">Erstelle dein kostenloses Konto</a>
+</div>
+<p class='testimonial-section'>
+<quote>
+”Ich kann ernsthaft behaupten, dass Kenhub meine Lernzeit halbiert hat.”
+–
+<a href="/de/success-stories">Mehr lesen.</a>
+</quote>
+<img class="profile-picture" alt="Kim Bengochea" src="https://www.kenhub.com/assets/success_stories/kim/profile-2a1ff5df33933ced963be0b12b1f5c6841fca1af901838270634217b3a1d88df.png" />
+<span class='student-info'>Kim Bengochea, Regis University, Denver</span>
+</p>
+</div>
+
+<div class='well well-hidden-content'>
+<a class='well-hidden-content__show-content' data-show-hidden-contentbox=''>
+<i class='circle gray circle-small fa fa-chevron-down'></i>
+Quellen anzeigen
+</a>
+<div class='hide-after-pageload'>
+<p>Quellen:</p>
+
+<ul>
+	<li>R. Schumann: Plantaris-Muskel - langer Wadenmuskel. Yuveo Klinik, <a href="http://yuveo.de/musculus/m-plantaris-langer-Wadenmuskel.html">http://yuveo.de/musculus/m-plantaris-langer-Wadenmuskel.html</a> (abgerufen am 24.Februar 2016)</li>
+	<li>F. Gerrer: Musculus plantaris. medizinkompakt, <a href="http://www.medizin-kompakt.de/a-z/muskeln/muskeln-p/m-plantaris">http://www.medizin-kompakt.de/a-z/muskeln/muskeln-p/m-plantaris</a> (abgerufen am 24.Februar 2016)</li>
+	<li>A. A. Spina: The plantaris muscle: anatomy, injury, imaging, and treatment. Journal of Canadian Chiropractic Association. Band 51, Auflage 3, 158-165</li>
+</ul>
+
+<p>Autor: Nicole Gonzalez</p>
+
+<p>Illustratoren:</p>
+
+<ul>
+	<li>Musculus plantaris - dorsomediale Ansicht - Liene Znotina</li>
+	<li>Musculus plantaris - Querschnittanatomie - National Library of Medicine</li>
+</ul>
+
+&copy; Sofern nicht anders angegeben, sind alle Inhalte, inklusive der Illustrationen, ausschließliches Eigentum der kenHub GmbH. Sie sind durch deutsches und internationales Urheberrecht geschützt. Alle Rechte vorbehalten.
+</div>
+</div>
+<section class='article__atlas' id='atlas_galleries'>
+<h2>
+<i class="fa fa-picture-o"></i> Relevante Grafiken und Bilder</h2>
+<section id='gallery_muscles-tibia-fibula'>
+<h3>Unterschenkel- und Kniemuskeln</h3>
+<div class='gallery' data-images='[{&quot;fullscreen_url&quot;:null,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/P7ropeDo6mkbUlqPt2uKms6o1-0=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/atlas_overview_image/728/FGwk9lCT09Zb6kjGgghQ_muscles-tibia-fibula_latin.jpg&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/P7ropeDo6mkbUlqPt2uKms6o1-0=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/atlas_overview_image/728/FGwk9lCT09Zb6kjGgghQ_muscles-tibia-fibula_latin.jpg&quot;,&quot;title&quot;:&quot;Unterschenkel- und Kniemuskeln&quot;,&quot;captions&quot;:[&quot;Unterschenkel- und Kniemuskeln&quot;],&quot;href&quot;:&quot;/de/atlas/muscles-tibia-fibula&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/r3esKDKLtP6l3mcTEc4JvKnhZXA=/fit-in/218x218/filters:fill(FFFFFF,true):format(jpeg)/images/atlas_overview_image/728/FGwk9lCT09Zb6kjGgghQ_muscles-tibia-fibula_latin.jpg&quot;,&quot;perspective&quot;:null,&quot;slug&quot;:&quot;muscles-tibia-fibula&quot;,&quot;image_type&quot;:null},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/PHfYpZ-t83Rzb6YAqC8BqoTKrQM=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-digitorum-longus/F6s3kMSlxP5O87Z6DTNCg_X3pimmyyRh_M._extensor_digitorum_longus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/Yb8C0SAncCZ3BbS_6U7mrVXI7FY=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-digitorum-longus/F6s3kMSlxP5O87Z6DTNCg_X3pimmyyRh_M._extensor_digitorum_longus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/Yb8C0SAncCZ3BbS_6U7mrVXI7FY=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-digitorum-longus/F6s3kMSlxP5O87Z6DTNCg_X3pimmyyRh_M._extensor_digitorum_longus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus extensor digitorum longus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus extensor digitorum longus&quot;,&quot; (langer Zehenstrecker)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-extensor-digitorum-longus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/8IajML3D11iI3CVFNt8Q7n5fmgo=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-extensor-digitorum-longus/F6s3kMSlxP5O87Z6DTNCg_X3pimmyyRh_M._extensor_digitorum_longus_NN_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;musculus-extensor-digitorum-longus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/0OGmmV9p4bLMa0GAbmr5RFwxymM=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-longus/U3KpW62Izkt1ASKpf5VmQ_txqULDGkD3_M._peroneus_longus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/VojnN-OroDPTKAFlg91rFOB5JlQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-longus/U3KpW62Izkt1ASKpf5VmQ_txqULDGkD3_M._peroneus_longus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/VojnN-OroDPTKAFlg91rFOB5JlQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-longus/U3KpW62Izkt1ASKpf5VmQ_txqULDGkD3_M._peroneus_longus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus peroneus longus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus peroneus longus&quot;,&quot; (langer Wadenbeinmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-peroneus-longus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/2gxGfxSsApBmjvRlXrgVSeNxOKM=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-peroneus-longus/U3KpW62Izkt1ASKpf5VmQ_txqULDGkD3_M._peroneus_longus_NN_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;musculus-peroneus-longus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/wD_YBjo8tReAEI6HHZ4VSn7zF8c=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-brevis/NF2DldEgb3o6tsP1c70u5Q_YWK3dQxWJL_M._peroneus_brevis_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/86G2XL3Zxq0vXea7wpgQ3oJVYaU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-brevis/NF2DldEgb3o6tsP1c70u5Q_YWK3dQxWJL_M._peroneus_brevis_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/86G2XL3Zxq0vXea7wpgQ3oJVYaU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-brevis/NF2DldEgb3o6tsP1c70u5Q_YWK3dQxWJL_M._peroneus_brevis_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus peroneus brevis; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus peroneus brevis&quot;,&quot; (kurzer Wadenbeinmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-peroneus-brevis&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/DOQpigtk3WRFcAJXXHUPRHldcAA=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-peroneus-brevis/NF2DldEgb3o6tsP1c70u5Q_YWK3dQxWJL_M._peroneus_brevis_NN_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;musculus-peroneus-brevis&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/JxEHGY_pODhuKMeoKQ4VNEsr204=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-hallucis-longus/2BDP64sTfMVlRUWVsQPCRg_odBS58SkbP_M._extensor_hallucis_longus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/XOKGcIWIU3e9BDh-SU96c5dS7Ro=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-hallucis-longus/2BDP64sTfMVlRUWVsQPCRg_odBS58SkbP_M._extensor_hallucis_longus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/XOKGcIWIU3e9BDh-SU96c5dS7Ro=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-hallucis-longus/2BDP64sTfMVlRUWVsQPCRg_odBS58SkbP_M._extensor_hallucis_longus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus extensor hallucis longus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus extensor hallucis longus&quot;,&quot; (langer Großzehenstrecker)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-extensor-hallucis-longus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/sJx_UItHtx_YPjIV0IJN-c5I7DA=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-extensor-hallucis-longus/2BDP64sTfMVlRUWVsQPCRg_odBS58SkbP_M._extensor_hallucis_longus_NN_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;musculus-extensor-hallucis-longus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/75SjEnT5hraTbyvMAAM8KpWCxN0=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-anterior/iCsRoSLIR6yyds3uQ4qpGA_qu4jCsPRqy_M._tibialis_anterior_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/p2D0Iu6G1szhxRJhcSiWcQ6u1_g=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-anterior/iCsRoSLIR6yyds3uQ4qpGA_qu4jCsPRqy_M._tibialis_anterior_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/p2D0Iu6G1szhxRJhcSiWcQ6u1_g=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-anterior/iCsRoSLIR6yyds3uQ4qpGA_qu4jCsPRqy_M._tibialis_anterior_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus tibialis anterior; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus tibialis anterior&quot;,&quot; (vorderer Schienbeinmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-tibialis-anterior&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/sWs_Uj_PR5vcx6CYZ7BuuHRK5IU=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-tibialis-anterior/iCsRoSLIR6yyds3uQ4qpGA_qu4jCsPRqy_M._tibialis_anterior_NN_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;musculus-tibialis-anterior&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/Iy2_lg7yTxSoAFUSwpfU38zbe6s=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/ligamentum-capitis-fibulae/1YXEv0QQ38HCiCSeMdEQQ_T8dc9sFfXv_Lig._capitis_fibulae_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/3qs4mFfgmMEbgcso9QhMdG4jJuE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/ligamentum-capitis-fibulae/1YXEv0QQ38HCiCSeMdEQQ_T8dc9sFfXv_Lig._capitis_fibulae_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/3qs4mFfgmMEbgcso9QhMdG4jJuE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/ligamentum-capitis-fibulae/1YXEv0QQ38HCiCSeMdEQQ_T8dc9sFfXv_Lig._capitis_fibulae_1.png&quot;,&quot;title&quot;:&quot;Ligamentum capitis fibulae; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Ligamentum capitis fibulae&quot;,&quot; (Wadenbeinkopfband)&quot;],&quot;href&quot;:&quot;/de/atlas/ligamentum-capitis-fibulae&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/7z7GoUwxApMm-5_yes1j5S6MtKs=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/ligamentum-capitis-fibulae/1YXEv0QQ38HCiCSeMdEQQ_T8dc9sFfXv_Lig._capitis_fibulae_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;ligamentum-capitis-fibulae&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/zFFmFYI2G5ODamFM65pYVdsr9hg=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semitendinosus/f485Dv2FW32CfnfoLoBtA_yoohgKNZnK_M._semitendinosus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/dZn-2HBihZlT-M1dE3TwL9Gbxio=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semitendinosus/f485Dv2FW32CfnfoLoBtA_yoohgKNZnK_M._semitendinosus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/dZn-2HBihZlT-M1dE3TwL9Gbxio=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semitendinosus/f485Dv2FW32CfnfoLoBtA_yoohgKNZnK_M._semitendinosus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus semitendinosus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus semitendinosus&quot;,&quot; (Halbsehnenmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-semitendinosus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/5I7wJn1T7lDDa7H9ZPXuq75VbIM=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-semitendinosus/f485Dv2FW32CfnfoLoBtA_yoohgKNZnK_M._semitendinosus_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-semitendinosus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/CwC1MpLYZKScwxVxHPuY7DLJkaA=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semimembranosus/Z9787lT3L9gCeNg6lLjaoQ_rUXLrd6UsJ_M._semimembranosus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/ua3T9ETXwPUX0fXky3cG5nT86XQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semimembranosus/Z9787lT3L9gCeNg6lLjaoQ_rUXLrd6UsJ_M._semimembranosus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/ua3T9ETXwPUX0fXky3cG5nT86XQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semimembranosus/Z9787lT3L9gCeNg6lLjaoQ_rUXLrd6UsJ_M._semimembranosus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus semimembranosus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus semimembranosus&quot;,&quot; (halbmembranöser Muskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-semimembranosus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/lTHqyzbI0BWMF3Xw5gSbO5HJYiY=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-semimembranosus/Z9787lT3L9gCeNg6lLjaoQ_rUXLrd6UsJ_M._semimembranosus_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-semimembranosus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/8SLccmKQCWqXHL1MV5JONtjCs6Q=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/membrana-interossea-cruris/koLFc7Qh2GhLR7L0kh3lw_Sp5XMxcnzR_Membrana_interossea_cruris_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/_fC9CYE0wGX3p9Mxh0AogweRV5M=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/membrana-interossea-cruris/koLFc7Qh2GhLR7L0kh3lw_Sp5XMxcnzR_Membrana_interossea_cruris_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/_fC9CYE0wGX3p9Mxh0AogweRV5M=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/membrana-interossea-cruris/koLFc7Qh2GhLR7L0kh3lw_Sp5XMxcnzR_Membrana_interossea_cruris_1.png&quot;,&quot;title&quot;:&quot;Membrana interossea cruris; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Membrana interossea cruris&quot;,&quot; (Zwischenknochenmembran des Unterschenkels)&quot;],&quot;href&quot;:&quot;/de/atlas/membrana-interossea-cruris&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/xzIogee59OGtmf4231VUJemZ0Jk=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/membrana-interossea-cruris/koLFc7Qh2GhLR7L0kh3lw_Sp5XMxcnzR_Membrana_interossea_cruris_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;membrana-interossea-cruris&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/e31vlCtVecYIrM9S86E0sJDc8U0=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-superius/4as0m2eTlsi0AMK7hdmAg_dHaQnVABps_Retinaculum_musculorum_extensorum_superius_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/-WWzPnDDmeoElNyCB2je0Ia-sK8=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-superius/4as0m2eTlsi0AMK7hdmAg_dHaQnVABps_Retinaculum_musculorum_extensorum_superius_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/-WWzPnDDmeoElNyCB2je0Ia-sK8=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-superius/4as0m2eTlsi0AMK7hdmAg_dHaQnVABps_Retinaculum_musculorum_extensorum_superius_1.png&quot;,&quot;title&quot;:&quot;Retinaculum musculorum extensorum superius; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Retinaculum musculorum extensorum superius&quot;,&quot; (oberes Halteband der Streckersehnen)&quot;],&quot;href&quot;:&quot;/de/atlas/retinaculum-musculorum-extensorum-superius&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/TMbAuWUyzTtGkKufgdVQrAp4IPU=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-superius/4as0m2eTlsi0AMK7hdmAg_dHaQnVABps_Retinaculum_musculorum_extensorum_superius_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;retinaculum-musculorum-extensorum-superius&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/wu7J10Rp88yxZGoPhoeUN2Zr8cM=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-inferius/emyoI6zygzTn05TMfKAZw_K7HuQyk8Tn_Retinaculum_musculorum_extensorum_inferius_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/Dcywi2XHVMUkM3rLkEjiEJLHElQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-inferius/emyoI6zygzTn05TMfKAZw_K7HuQyk8Tn_Retinaculum_musculorum_extensorum_inferius_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/Dcywi2XHVMUkM3rLkEjiEJLHElQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-inferius/emyoI6zygzTn05TMfKAZw_K7HuQyk8Tn_Retinaculum_musculorum_extensorum_inferius_1.png&quot;,&quot;title&quot;:&quot;Retinaculum musculorum extensorum inferius; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Retinaculum musculorum extensorum inferius&quot;,&quot; (unteres Halteband der Streckersehnen)&quot;],&quot;href&quot;:&quot;/de/atlas/retinaculum-musculorum-extensorum-inferius&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/C91J_OpO_UzegmfPM08JpJvVaM8=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-inferius/emyoI6zygzTn05TMfKAZw_K7HuQyk8Tn_Retinaculum_musculorum_extensorum_inferius_1.png&quot;,&quot;perspective&quot;:&quot;anterior&quot;,&quot;slug&quot;:&quot;retinaculum-musculorum-extensorum-inferius&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/xbKIB5thYIBNl1d0LtlX6iyi39I=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-flexorum/1Xc2py1vlB11TffZccVQjA_S4rpaqrbRz_Retinaculum_musculorum_flexorum_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/9nYhxmGdsSmgYjG1HAWgYsTlHR8=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-flexorum/1Xc2py1vlB11TffZccVQjA_S4rpaqrbRz_Retinaculum_musculorum_flexorum_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/9nYhxmGdsSmgYjG1HAWgYsTlHR8=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-flexorum/1Xc2py1vlB11TffZccVQjA_S4rpaqrbRz_Retinaculum_musculorum_flexorum_1.png&quot;,&quot;title&quot;:&quot;Retinaculum musculorum flexorum; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Retinaculum musculorum flexorum&quot;,&quot; (Halteband der Beugesehnen)&quot;],&quot;href&quot;:&quot;/de/atlas/retinaculum-musculorum-flexorum&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/Rt8qbPGPRv2WiWk4EZLJKuPeVag=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/retinaculum-musculorum-flexorum/1Xc2py1vlB11TffZccVQjA_S4rpaqrbRz_Retinaculum_musculorum_flexorum_1.png&quot;,&quot;perspective&quot;:&quot;inferior&quot;,&quot;slug&quot;:&quot;retinaculum-musculorum-flexorum&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/_pIiP8RtUvOpLrpJJ6Fz-rOF5-g=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-superius/gE5euXObTGikuzepEBQang_bda6zvGQnz_Retinaculum_musculorum_peroneorum_superius_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/RWn6STs3V78Yx05O1LlQPOIlq1E=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-superius/gE5euXObTGikuzepEBQang_bda6zvGQnz_Retinaculum_musculorum_peroneorum_superius_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/RWn6STs3V78Yx05O1LlQPOIlq1E=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-superius/gE5euXObTGikuzepEBQang_bda6zvGQnz_Retinaculum_musculorum_peroneorum_superius_1.png&quot;,&quot;title&quot;:&quot;Retinaculum musculorum fibularium superius; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Retinaculum musculorum fibularium superius&quot;,&quot; (oberes Halteband der Wadenbeinmuskeln)&quot;],&quot;href&quot;:&quot;/de/atlas/retinaculum-musculorum-peroneorum-superius&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/tXHzl9hOTSYrNQv2sq5CqBXn_IQ=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-superius/gE5euXObTGikuzepEBQang_bda6zvGQnz_Retinaculum_musculorum_peroneorum_superius_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;retinaculum-musculorum-peroneorum-superius&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/hAFARuyqLXsJp8B2MNWv3N5f2Ms=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-inferius/NIRJV049I4pMrQppeAuA_DQBQhMUody_Retinaculum_musculorum_peroneorum_inferius_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/Ev3ssIqBb1sIIPPTEwjidWxOkdc=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-inferius/NIRJV049I4pMrQppeAuA_DQBQhMUody_Retinaculum_musculorum_peroneorum_inferius_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/Ev3ssIqBb1sIIPPTEwjidWxOkdc=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-inferius/NIRJV049I4pMrQppeAuA_DQBQhMUody_Retinaculum_musculorum_peroneorum_inferius_1.png&quot;,&quot;title&quot;:&quot;Retinaculum musculorum fibularium inferius; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Retinaculum musculorum fibularium inferius&quot;,&quot; (unteres Halteband der Wadenbeinmuskeln)&quot;],&quot;href&quot;:&quot;/de/atlas/retinaculum-musculorum-peroneorum-inferius&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/WvG9dKhDAStvTXk0vKY70kOaZSs=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-inferius/NIRJV049I4pMrQppeAuA_DQBQhMUody_Retinaculum_musculorum_peroneorum_inferius_1.png&quot;,&quot;perspective&quot;:&quot;inferior&quot;,&quot;slug&quot;:&quot;retinaculum-musculorum-peroneorum-inferius&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/2dbqieur7KBJvZ3EiUIFw1GtiJE=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-gastrocnemius/oowJL6MP24iNDSPAlFiOMQ_NRZpRgopy7_M._gastrocnemius_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/6lq_V-vk9aD1kYoLTc2lSdqFlm4=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-gastrocnemius/oowJL6MP24iNDSPAlFiOMQ_NRZpRgopy7_M._gastrocnemius_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/6lq_V-vk9aD1kYoLTc2lSdqFlm4=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-gastrocnemius/oowJL6MP24iNDSPAlFiOMQ_NRZpRgopy7_M._gastrocnemius_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus gastrocnemius; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus gastrocnemius&quot;,&quot; (Zwillingswadenmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-gastrocnemius&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/Nfoy233RM_Gu9fGf5Y5UDsxn-F8=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-gastrocnemius/oowJL6MP24iNDSPAlFiOMQ_NRZpRgopy7_M._gastrocnemius_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-gastrocnemius&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/o2dtvbJ9uvbd42LDag36UGzJfVg=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-soleus/DdNWoeTXJjbD8nw4X4Am6g_UDHERM1wg2_M._soleus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/8w66zPh-ALyhbfjq6qoILrts4bw=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-soleus/DdNWoeTXJjbD8nw4X4Am6g_UDHERM1wg2_M._soleus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/8w66zPh-ALyhbfjq6qoILrts4bw=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-soleus/DdNWoeTXJjbD8nw4X4Am6g_UDHERM1wg2_M._soleus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus soleus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus soleus&quot;,&quot; (Schollenmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-soleus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/M2lzi2U_iZ4TQCyCutlkTOSaX0Q=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-soleus/DdNWoeTXJjbD8nw4X4Am6g_UDHERM1wg2_M._soleus_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-soleus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/he_1Is_q7qrPUyJEzxxxgAiqUuc=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-posterior/YVKMLfwiC9N6pxKvYwkTIQ_9vsSyj16ei_M._tibialis_posterior_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/XZDhDsfNgitl7RPIsh64RrkEzGU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-posterior/YVKMLfwiC9N6pxKvYwkTIQ_9vsSyj16ei_M._tibialis_posterior_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/XZDhDsfNgitl7RPIsh64RrkEzGU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-posterior/YVKMLfwiC9N6pxKvYwkTIQ_9vsSyj16ei_M._tibialis_posterior_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus tibialis posterior; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus tibialis posterior&quot;,&quot; (hinterer Schienbeinmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-tibialis-posterior&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/oBu_PEDaSj_HuvjuInW2wTsHGTQ=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-tibialis-posterior/YVKMLfwiC9N6pxKvYwkTIQ_9vsSyj16ei_M._tibialis_posterior_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-tibialis-posterior&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/KSvCU8FRA8SK_yJKobY3BMhiMqA=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-popliteus/0FH6RjyToyQvf20378Secw_ZUg8D3Xvsa_M._popliteus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/DWQQAiozk2eugU-9XAZUFp904dQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-popliteus/0FH6RjyToyQvf20378Secw_ZUg8D3Xvsa_M._popliteus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/DWQQAiozk2eugU-9XAZUFp904dQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-popliteus/0FH6RjyToyQvf20378Secw_ZUg8D3Xvsa_M._popliteus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus popliteus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus popliteus&quot;,&quot; (Kniekehlenmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-popliteus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/Ir1HpUk5fN3dBHXd0pdqsw1CdHY=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-popliteus/0FH6RjyToyQvf20378Secw_ZUg8D3Xvsa_M._popliteus_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-popliteus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/6PwG3NPn1n0MMKBG9B_jn_RmC9k=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-plantaris/iDualObIXV0QAyU31DW4rQ_PK1S5pvavy_M._plantaris_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/Jysjb02Gsfr8I6ILLMEoMc5iSAM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-plantaris/iDualObIXV0QAyU31DW4rQ_PK1S5pvavy_M._plantaris_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/Jysjb02Gsfr8I6ILLMEoMc5iSAM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-plantaris/iDualObIXV0QAyU31DW4rQ_PK1S5pvavy_M._plantaris_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus plantaris; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus plantaris&quot;,&quot; (Fußsohlenmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-plantaris&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/GLYXnDzA7ko6osOxjSuhzUZotZQ=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-plantaris/iDualObIXV0QAyU31DW4rQ_PK1S5pvavy_M._plantaris_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-plantaris&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/YreSaOJrpP-Tvbtpxx5mVwQIe4g=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-digitorum-longus/ByQRX30Xh4W6UprDk6fw_tJd19c1Nyd_M._flexor_digitorum_longus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/EvLmGNTaVHr0OvPn5X4TwgL-hkg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-digitorum-longus/ByQRX30Xh4W6UprDk6fw_tJd19c1Nyd_M._flexor_digitorum_longus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/EvLmGNTaVHr0OvPn5X4TwgL-hkg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-digitorum-longus/ByQRX30Xh4W6UprDk6fw_tJd19c1Nyd_M._flexor_digitorum_longus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus flexor digitorum longus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus flexor digitorum longus&quot;,&quot; (langer Zehenbeuger)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-flexor-digitorum-longus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/DAaUYgkB3EN5s91XaOhTXf8WEbw=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-flexor-digitorum-longus/ByQRX30Xh4W6UprDk6fw_tJd19c1Nyd_M._flexor_digitorum_longus_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-flexor-digitorum-longus&quot;,&quot;image_type&quot;:&quot;illustration&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/eJgGITqwOz5axB-pdZ91ZegIvKw=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-hallucis-longus/reKPC3BGbBZ70wQFnYDIw_z1jj6smEiZ_M._flexor_hallucis_longus_NN_1.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/-XoXSYl99KjofeOu4lZAZkykBbo=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-hallucis-longus/reKPC3BGbBZ70wQFnYDIw_z1jj6smEiZ_M._flexor_hallucis_longus_NN_1.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/-XoXSYl99KjofeOu4lZAZkykBbo=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-hallucis-longus/reKPC3BGbBZ70wQFnYDIw_z1jj6smEiZ_M._flexor_hallucis_longus_NN_1.png&quot;,&quot;title&quot;:&quot;Musculus flexor hallucis longus; Bild: Liene Znotina&quot;,&quot;captions&quot;:[&quot;Musculus flexor hallucis longus&quot;,&quot; (langer Großzehenbeuger)&quot;],&quot;href&quot;:&quot;/de/atlas/musculus-flexor-hallucis-longus&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/S7hVBl-tY3OQnU1c0mzl67QYBkE=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/musculus-flexor-hallucis-longus/reKPC3BGbBZ70wQFnYDIw_z1jj6smEiZ_M._flexor_hallucis_longus_NN_1.png&quot;,&quot;perspective&quot;:&quot;posterior&quot;,&quot;slug&quot;:&quot;musculus-flexor-hallucis-longus&quot;,&quot;image_type&quot;:&quot;illustration&quot;}]'>
+<noscript>
+<img alt="Unterschenkel- und Kniemuskeln" title="Unterschenkel- und Kniemuskeln" crossorigin="anonymous" src="https://thumbor.kenhub.com/P7ropeDo6mkbUlqPt2uKms6o1-0=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/atlas_overview_image/728/FGwk9lCT09Zb6kjGgghQ_muscles-tibia-fibula_latin.jpg" />
+<img alt="Musculus extensor digitorum longus; Bild: Liene Znotina" title="Musculus extensor digitorum longus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/Yb8C0SAncCZ3BbS_6U7mrVXI7FY=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-digitorum-longus/F6s3kMSlxP5O87Z6DTNCg_X3pimmyyRh_M._extensor_digitorum_longus_NN_1.png" />
+<img alt="Musculus peroneus longus; Bild: Liene Znotina" title="Musculus peroneus longus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/VojnN-OroDPTKAFlg91rFOB5JlQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-longus/U3KpW62Izkt1ASKpf5VmQ_txqULDGkD3_M._peroneus_longus_NN_1.png" />
+<img alt="Musculus peroneus brevis; Bild: Liene Znotina" title="Musculus peroneus brevis; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/86G2XL3Zxq0vXea7wpgQ3oJVYaU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-peroneus-brevis/NF2DldEgb3o6tsP1c70u5Q_YWK3dQxWJL_M._peroneus_brevis_NN_1.png" />
+<img alt="Musculus extensor hallucis longus; Bild: Liene Znotina" title="Musculus extensor hallucis longus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/XOKGcIWIU3e9BDh-SU96c5dS7Ro=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-extensor-hallucis-longus/2BDP64sTfMVlRUWVsQPCRg_odBS58SkbP_M._extensor_hallucis_longus_NN_1.png" />
+<img alt="Musculus tibialis anterior; Bild: Liene Znotina" title="Musculus tibialis anterior; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/p2D0Iu6G1szhxRJhcSiWcQ6u1_g=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-anterior/iCsRoSLIR6yyds3uQ4qpGA_qu4jCsPRqy_M._tibialis_anterior_NN_1.png" />
+<img alt="Ligamentum capitis fibulae; Bild: Liene Znotina" title="Ligamentum capitis fibulae; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/3qs4mFfgmMEbgcso9QhMdG4jJuE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/ligamentum-capitis-fibulae/1YXEv0QQ38HCiCSeMdEQQ_T8dc9sFfXv_Lig._capitis_fibulae_1.png" />
+<img alt="Musculus semitendinosus; Bild: Liene Znotina" title="Musculus semitendinosus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/dZn-2HBihZlT-M1dE3TwL9Gbxio=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semitendinosus/f485Dv2FW32CfnfoLoBtA_yoohgKNZnK_M._semitendinosus_NN_1.png" />
+<img alt="Musculus semimembranosus; Bild: Liene Znotina" title="Musculus semimembranosus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/ua3T9ETXwPUX0fXky3cG5nT86XQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-semimembranosus/Z9787lT3L9gCeNg6lLjaoQ_rUXLrd6UsJ_M._semimembranosus_NN_1.png" />
+<img alt="Membrana interossea cruris; Bild: Liene Znotina" title="Membrana interossea cruris; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/_fC9CYE0wGX3p9Mxh0AogweRV5M=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/membrana-interossea-cruris/koLFc7Qh2GhLR7L0kh3lw_Sp5XMxcnzR_Membrana_interossea_cruris_1.png" />
+<img alt="Retinaculum musculorum extensorum superius; Bild: Liene Znotina" title="Retinaculum musculorum extensorum superius; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/-WWzPnDDmeoElNyCB2je0Ia-sK8=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-superius/4as0m2eTlsi0AMK7hdmAg_dHaQnVABps_Retinaculum_musculorum_extensorum_superius_1.png" />
+<img alt="Retinaculum musculorum extensorum inferius; Bild: Liene Znotina" title="Retinaculum musculorum extensorum inferius; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/Dcywi2XHVMUkM3rLkEjiEJLHElQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-extensorum-inferius/emyoI6zygzTn05TMfKAZw_K7HuQyk8Tn_Retinaculum_musculorum_extensorum_inferius_1.png" />
+<img alt="Retinaculum musculorum flexorum; Bild: Liene Znotina" title="Retinaculum musculorum flexorum; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/9nYhxmGdsSmgYjG1HAWgYsTlHR8=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-flexorum/1Xc2py1vlB11TffZccVQjA_S4rpaqrbRz_Retinaculum_musculorum_flexorum_1.png" />
+<img alt="Retinaculum musculorum fibularium superius; Bild: Liene Znotina" title="Retinaculum musculorum fibularium superius; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/RWn6STs3V78Yx05O1LlQPOIlq1E=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-superius/gE5euXObTGikuzepEBQang_bda6zvGQnz_Retinaculum_musculorum_peroneorum_superius_1.png" />
+<img alt="Retinaculum musculorum fibularium inferius; Bild: Liene Znotina" title="Retinaculum musculorum fibularium inferius; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/Ev3ssIqBb1sIIPPTEwjidWxOkdc=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/retinaculum-musculorum-peroneorum-inferius/NIRJV049I4pMrQppeAuA_DQBQhMUody_Retinaculum_musculorum_peroneorum_inferius_1.png" />
+<img alt="Musculus gastrocnemius; Bild: Liene Znotina" title="Musculus gastrocnemius; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/6lq_V-vk9aD1kYoLTc2lSdqFlm4=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-gastrocnemius/oowJL6MP24iNDSPAlFiOMQ_NRZpRgopy7_M._gastrocnemius_NN_1.png" />
+<img alt="Musculus soleus; Bild: Liene Znotina" title="Musculus soleus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/8w66zPh-ALyhbfjq6qoILrts4bw=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-soleus/DdNWoeTXJjbD8nw4X4Am6g_UDHERM1wg2_M._soleus_NN_1.png" />
+<img alt="Musculus tibialis posterior; Bild: Liene Znotina" title="Musculus tibialis posterior; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/XZDhDsfNgitl7RPIsh64RrkEzGU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-tibialis-posterior/YVKMLfwiC9N6pxKvYwkTIQ_9vsSyj16ei_M._tibialis_posterior_NN_1.png" />
+<img alt="Musculus popliteus; Bild: Liene Znotina" title="Musculus popliteus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/DWQQAiozk2eugU-9XAZUFp904dQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-popliteus/0FH6RjyToyQvf20378Secw_ZUg8D3Xvsa_M._popliteus_NN_1.png" />
+<img alt="Musculus plantaris; Bild: Liene Znotina" title="Musculus plantaris; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/Jysjb02Gsfr8I6ILLMEoMc5iSAM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-plantaris/iDualObIXV0QAyU31DW4rQ_PK1S5pvavy_M._plantaris_NN_1.png" />
+<img alt="Musculus flexor digitorum longus; Bild: Liene Znotina" title="Musculus flexor digitorum longus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/EvLmGNTaVHr0OvPn5X4TwgL-hkg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-digitorum-longus/ByQRX30Xh4W6UprDk6fw_tJd19c1Nyd_M._flexor_digitorum_longus_NN_1.png" />
+<img alt="Musculus flexor hallucis longus; Bild: Liene Znotina" title="Musculus flexor hallucis longus; Bild: Liene Znotina" crossorigin="anonymous" src="https://thumbor.kenhub.com/-XoXSYl99KjofeOu4lZAZkykBbo=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/musculus-flexor-hallucis-longus/reKPC3BGbBZ70wQFnYDIw_z1jj6smEiZ_M._flexor_hallucis_longus_NN_1.png" />
+</noscript>
+</div>
+</section>
+<section id='gallery_cross-section-patella'>
+<h3>Höhe: Kniescheibe</h3>
+<div class='gallery' data-images='[{&quot;fullscreen_url&quot;:null,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/smDUlouHBX9Ux3SZPCOC2C59Q6o=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/atlas_overview_image/84/2OIc2uDy6jgXt42W2zEQw_cross-section-patella_latin.jpg&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/smDUlouHBX9Ux3SZPCOC2C59Q6o=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/atlas_overview_image/84/2OIc2uDy6jgXt42W2zEQw_cross-section-patella_latin.jpg&quot;,&quot;title&quot;:&quot;Höhe: Kniescheibe&quot;,&quot;captions&quot;:[&quot;Höhe: Kniescheibe&quot;],&quot;href&quot;:&quot;/de/atlas/cross-section-patella&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/sk2YmbN49egyB6jpr6UwCOiXQg0=/fit-in/218x218/filters:fill(FFFFFF,true):format(jpeg)/images/atlas_overview_image/84/2OIc2uDy6jgXt42W2zEQw_cross-section-patella_latin.jpg&quot;,&quot;perspective&quot;:null,&quot;slug&quot;:&quot;cross-section-patella&quot;,&quot;image_type&quot;:null},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/hP9KyOwxEgrv82vsx_H3hgXXD6s=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-epicondyle-3/3fcoo90NRo2OEkQkTI6UFA_medial_condyle_of_femur.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/Q6k4uKLehDyQSUzWWw5RPuZ3HMQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-epicondyle-3/3fcoo90NRo2OEkQkTI6UFA_medial_condyle_of_femur.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/Q6k4uKLehDyQSUzWWw5RPuZ3HMQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-epicondyle-3/3fcoo90NRo2OEkQkTI6UFA_medial_condyle_of_femur.png&quot;,&quot;title&quot;:&quot;Epicondylus medialis femoris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Epicondylus medialis femoris&quot;,&quot; (innerer Obergelenkknorren des Oberschenkels)&quot;],&quot;href&quot;:&quot;/de/atlas/medial-epicondyle-3&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/_WdZDnSImUicybzloyVPTV2bua4=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/medial-epicondyle-3/3fcoo90NRo2OEkQkTI6UFA_medial_condyle_of_femur.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;medial-epicondyle-3&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/hjWZc7GFRQDWsZVZrYSJlZPR1gc=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/intercondylar-fossa-2/VPmDqCCTltxyFlKOVfHquw_intercondylar_fossa.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/XfIqGganpQDtB0jeJRl1Qgg0eSE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/intercondylar-fossa-2/VPmDqCCTltxyFlKOVfHquw_intercondylar_fossa.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/XfIqGganpQDtB0jeJRl1Qgg0eSE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/intercondylar-fossa-2/VPmDqCCTltxyFlKOVfHquw_intercondylar_fossa.png&quot;,&quot;title&quot;:&quot;Fossa intercondylaris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Fossa intercondylaris&quot;,&quot; (Zwischenknorrengrube)&quot;],&quot;href&quot;:&quot;/de/atlas/intercondylar-fossa-2&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/rBJzGI5mnnvmkcCZ2JDm5Glsx1I=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/intercondylar-fossa-2/VPmDqCCTltxyFlKOVfHquw_intercondylar_fossa.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;intercondylar-fossa-2&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/iAwFw_9kuQIi_77Go249suaQbYg=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-epicondyle-3/xal7oDqOHMmhX2dpV9Fw_lateral_epicondyle.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/pNGVYtHIP4sL7eK6qHhwFbXP6NE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-epicondyle-3/xal7oDqOHMmhX2dpV9Fw_lateral_epicondyle.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/pNGVYtHIP4sL7eK6qHhwFbXP6NE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-epicondyle-3/xal7oDqOHMmhX2dpV9Fw_lateral_epicondyle.png&quot;,&quot;title&quot;:&quot;Epicondylus lateralis femoris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Epicondylus lateralis femoris&quot;,&quot; (äußerer Obergelenkknorren des Oberschenkels)&quot;],&quot;href&quot;:&quot;/de/atlas/lateral-epicondyle-3&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/_RDXieGBHzhORYyH9hGPHCySK30=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/lateral-epicondyle-3/xal7oDqOHMmhX2dpV9Fw_lateral_epicondyle.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;lateral-epicondyle-3&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/S4u7p9k-mYdI0QaAomoxARjz6AE=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/patella-6/FQZoC4NYbzaLlkckZ9GHpw_patella.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/3KtJuC0RYxrN-XthHhg2-n-D5eA=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/patella-6/FQZoC4NYbzaLlkckZ9GHpw_patella.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/3KtJuC0RYxrN-XthHhg2-n-D5eA=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/patella-6/FQZoC4NYbzaLlkckZ9GHpw_patella.png&quot;,&quot;title&quot;:&quot;Patella; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Patella&quot;,&quot; (Kniescheibe)&quot;],&quot;href&quot;:&quot;/de/atlas/patella-6&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/QyamfbuIusxrFjMWMTH-CM8avLA=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/patella-6/FQZoC4NYbzaLlkckZ9GHpw_patella.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;patella-6&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/5Ur6bYmQhtUTjd4a0fB0RuUz9bw=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/tibial-nerve-5/dolE93aUYuEmMO1gE9X0A_Tibial_nerve.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/cM0-Diy22rEMpL5YtDbDpcKo-UQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/tibial-nerve-5/dolE93aUYuEmMO1gE9X0A_Tibial_nerve.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/cM0-Diy22rEMpL5YtDbDpcKo-UQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/tibial-nerve-5/dolE93aUYuEmMO1gE9X0A_Tibial_nerve.png&quot;,&quot;title&quot;:&quot;Nervus tibialis; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Nervus tibialis&quot;,&quot; (Schienbeinnerv)&quot;],&quot;href&quot;:&quot;/de/atlas/tibial-nerve-5&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/Ma4gg4dGvxOG62D7vi53WgwuUok=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/tibial-nerve-5/dolE93aUYuEmMO1gE9X0A_Tibial_nerve.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;tibial-nerve-5&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/bf5WnxrTSLMJwv5Ghg3oEX1RDyQ=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/great-saphenous-vein-4/fnz9xjK9zWqAQPo6SH5Lg_great_saphenous_vein.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/K70tQ2OhZxRmUaHxUXDhcqHvNqE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/great-saphenous-vein-4/fnz9xjK9zWqAQPo6SH5Lg_great_saphenous_vein.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/K70tQ2OhZxRmUaHxUXDhcqHvNqE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/great-saphenous-vein-4/fnz9xjK9zWqAQPo6SH5Lg_great_saphenous_vein.png&quot;,&quot;title&quot;:&quot;Vena saphena magna; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Vena saphena magna&quot;,&quot; (große Rosenvene)&quot;],&quot;href&quot;:&quot;/de/atlas/great-saphenous-vein-4&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/ZWhIBhob0LYK99D1DuQXGtCWQu0=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/great-saphenous-vein-4/fnz9xjK9zWqAQPo6SH5Lg_great_saphenous_vein.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;great-saphenous-vein-4&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/sJjvVTTrKpsNSHQ6VxLT9o_bjhU=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-vein-3/cvN9Gl4J4j59sLrOscJ44Q_popliteal_vein.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/w8K5qRsfRjY2EuS2LvpYmvs1DbY=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-vein-3/cvN9Gl4J4j59sLrOscJ44Q_popliteal_vein.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/w8K5qRsfRjY2EuS2LvpYmvs1DbY=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-vein-3/cvN9Gl4J4j59sLrOscJ44Q_popliteal_vein.png&quot;,&quot;title&quot;:&quot;Vena poplitea; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Vena poplitea&quot;,&quot; (Kniekehlenvene)&quot;],&quot;href&quot;:&quot;/de/atlas/popliteal-vein-3&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/OvoGBErCl9xHLs4l6mthGfABPdo=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/popliteal-vein-3/cvN9Gl4J4j59sLrOscJ44Q_popliteal_vein.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;popliteal-vein-3&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/SyKRjEr4UMBjoxO5xnAf0XNmvpw=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-artery-3/hlTcoaDmF7FfErmRwBUsA_popliteal_artery.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/J1jfMeBEeLzPeiJhxdZnN9vz2nw=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-artery-3/hlTcoaDmF7FfErmRwBUsA_popliteal_artery.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/J1jfMeBEeLzPeiJhxdZnN9vz2nw=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-artery-3/hlTcoaDmF7FfErmRwBUsA_popliteal_artery.png&quot;,&quot;title&quot;:&quot;Arteria poplitea; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Arteria poplitea&quot;,&quot; (Kniekehlenarterie)&quot;],&quot;href&quot;:&quot;/de/atlas/popliteal-artery-3&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/5NmaL5iVxpQ2ysuqC-IiTNjvlC4=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/popliteal-artery-3/hlTcoaDmF7FfErmRwBUsA_popliteal_artery.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;popliteal-artery-3&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/2BTJ7r5ynub1fDaPAPxDV4wW1qk=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/anterior-cruciate-ligament-2/uvioO0BldhZIisZhzUMrtw_anterior_cruciate_ligament.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/7CszaA833EEeIllTIxKEf-JdUdM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/anterior-cruciate-ligament-2/uvioO0BldhZIisZhzUMrtw_anterior_cruciate_ligament.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/7CszaA833EEeIllTIxKEf-JdUdM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/anterior-cruciate-ligament-2/uvioO0BldhZIisZhzUMrtw_anterior_cruciate_ligament.png&quot;,&quot;title&quot;:&quot;Ligamentum cruciatum anterius; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Ligamentum cruciatum anterius&quot;,&quot; (vorderes Kreuzband)&quot;],&quot;href&quot;:&quot;/de/atlas/anterior-cruciate-ligament-2&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/3tfutI5iteRpPGxI9wgi2Fy2uPk=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/anterior-cruciate-ligament-2/uvioO0BldhZIisZhzUMrtw_anterior_cruciate_ligament.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;anterior-cruciate-ligament-2&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/AF_1A_YiqGIspyah63j-786GLIg=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-condyle-3/FqpIPtc224vLdkiKEfjZcQ_lateral_condyle_of_femur.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/ElUe4Yl2XEr2MUgSA-NDYriUiv4=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-condyle-3/FqpIPtc224vLdkiKEfjZcQ_lateral_condyle_of_femur.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/ElUe4Yl2XEr2MUgSA-NDYriUiv4=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-condyle-3/FqpIPtc224vLdkiKEfjZcQ_lateral_condyle_of_femur.png&quot;,&quot;title&quot;:&quot;Condylus lateralis femoris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Condylus lateralis femoris&quot;,&quot; (äußerer Gelenkknorren des Oberschenkels)&quot;],&quot;href&quot;:&quot;/de/atlas/lateral-condyle-3&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/9YAAz7qQv6zQE0FoQiinIZbKKR8=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/lateral-condyle-3/FqpIPtc224vLdkiKEfjZcQ_lateral_condyle_of_femur.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;lateral-condyle-3&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/7fQd3cEo0HGD8Wd9zakRosHuTxM=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-condyle-3/B43SeiE8S341RLBJsfMQSw_Medial_condyle.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/3Zkf6sdQn21-4g2A1zDNNK_wU-M=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-condyle-3/B43SeiE8S341RLBJsfMQSw_Medial_condyle.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/3Zkf6sdQn21-4g2A1zDNNK_wU-M=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-condyle-3/B43SeiE8S341RLBJsfMQSw_Medial_condyle.png&quot;,&quot;title&quot;:&quot;Condylus medialis femoris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Condylus medialis femoris&quot;,&quot; (innerer Gelenkknorren des Oberschenkels)&quot;],&quot;href&quot;:&quot;/de/atlas/medial-condyle-3&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/WUWqYMv34_0nHpYwVWhmfMdMW2w=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/medial-condyle-3/B43SeiE8S341RLBJsfMQSw_Medial_condyle.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;medial-condyle-3&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/DXjZNFqYSZHi4ObBiwmD_4fjA4s=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/plantaris-muscle-2/LeZ9CoqErlKFb9JVMqLMXQ_plantaris_muscle.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/NipbvA9sGuxXe_EPvHVpZZNskzM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/plantaris-muscle-2/LeZ9CoqErlKFb9JVMqLMXQ_plantaris_muscle.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/NipbvA9sGuxXe_EPvHVpZZNskzM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/plantaris-muscle-2/LeZ9CoqErlKFb9JVMqLMXQ_plantaris_muscle.png&quot;,&quot;title&quot;:&quot;Musculus plantaris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Musculus plantaris&quot;,&quot; (Fußsohlenmuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/plantaris-muscle-2&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/jDvxFB2Vwmm4uOcypWkSUn7B3f8=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/plantaris-muscle-2/LeZ9CoqErlKFb9JVMqLMXQ_plantaris_muscle.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;plantaris-muscle-2&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/8HDfLhAKVd68yHFsnEf6FbLE4n8=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/sartorius-muscle-5/orz7Ul1hBMR4liPvlUdpVg_sartorius_muscle.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/OqityaPZeEa1p7dTgJYSDP0vbFU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/sartorius-muscle-5/orz7Ul1hBMR4liPvlUdpVg_sartorius_muscle.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/OqityaPZeEa1p7dTgJYSDP0vbFU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/sartorius-muscle-5/orz7Ul1hBMR4liPvlUdpVg_sartorius_muscle.png&quot;,&quot;title&quot;:&quot;Musculus sartorius; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Musculus sartorius&quot;,&quot; (Schneidermuskel)&quot;],&quot;href&quot;:&quot;/de/atlas/sartorius-muscle-5&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/y6htKNbk4Xk7b9MULqCCPbhnE0A=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/sartorius-muscle-5/orz7Ul1hBMR4liPvlUdpVg_sartorius_muscle.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;sartorius-muscle-5&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/vvPP9mpAZ5W9c_MTqiBSpcFSZ5U=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/semimembranosus-muscle-4/rLr2SIM5BL8ayPPvSvNfw_semimembranosus_muscle.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/18PYxDtPQr7pousAV0pP9-6ALYo=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/semimembranosus-muscle-4/rLr2SIM5BL8ayPPvSvNfw_semimembranosus_muscle.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/18PYxDtPQr7pousAV0pP9-6ALYo=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/semimembranosus-muscle-4/rLr2SIM5BL8ayPPvSvNfw_semimembranosus_muscle.png&quot;,&quot;title&quot;:&quot;Musculus semimembranosus; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Musculus semimembranosus&quot;,&quot; (halbmembranöser Muskel)&quot;],&quot;href&quot;:&quot;/de/atlas/semimembranosus-muscle-4&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/0xe2TKG3U4RMMM-e38mGJLPbHiY=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/semimembranosus-muscle-4/rLr2SIM5BL8ayPPvSvNfw_semimembranosus_muscle.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;semimembranosus-muscle-4&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/RXp-srkhx8NzN0X4AF3wijQYUKQ=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-patellar-retinaculum-1/3SLIEByR09tFgTEjTDzolw_Retinaculum_patellae_Laterale.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/MRxZXlh0yRnvrtmo4Lj9AI0C5uI=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-patellar-retinaculum-1/3SLIEByR09tFgTEjTDzolw_Retinaculum_patellae_Laterale.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/MRxZXlh0yRnvrtmo4Lj9AI0C5uI=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-patellar-retinaculum-1/3SLIEByR09tFgTEjTDzolw_Retinaculum_patellae_Laterale.png&quot;,&quot;title&quot;:&quot;Retinaculum patellae laterale; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Retinaculum patellae laterale&quot;,&quot; (äußerer Kniescheibenzügel)&quot;],&quot;href&quot;:&quot;/de/atlas/lateral-patellar-retinaculum-1&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/-G2wZ9aSdNCuXo0eW5BoGiaOXUM=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/lateral-patellar-retinaculum-1/3SLIEByR09tFgTEjTDzolw_Retinaculum_patellae_Laterale.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;lateral-patellar-retinaculum-1&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/lty9U0JQnb3n3uR1Z0DX4F-rTe8=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/fibular-collateral-ligament-2/sZuUEMviA3vv1KChKfkLg_fibular_collateral_ligament.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/f5lss14LAD5L11n2HMfH09_90UM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/fibular-collateral-ligament-2/sZuUEMviA3vv1KChKfkLg_fibular_collateral_ligament.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/f5lss14LAD5L11n2HMfH09_90UM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/fibular-collateral-ligament-2/sZuUEMviA3vv1KChKfkLg_fibular_collateral_ligament.png&quot;,&quot;title&quot;:&quot;Ligamentum collaterale fibulare; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Ligamentum collaterale fibulare&quot;,&quot; (Knieaußenband)&quot;],&quot;href&quot;:&quot;/de/atlas/fibular-collateral-ligament-2&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/l6hdK7yJYGctdec1cyHlmRxb4HQ=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/fibular-collateral-ligament-2/sZuUEMviA3vv1KChKfkLg_fibular_collateral_ligament.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;fibular-collateral-ligament-2&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/P0_k5yf4pXSv4NXzwh7cWLE2s6s=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-patellar-retinaculum-1/jzvAX23bc8yvm6jtfRaaRw_Retinaculum_patellae_medialis.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/jenzcps9CXyvsQm5wzq9kHaUmYg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-patellar-retinaculum-1/jzvAX23bc8yvm6jtfRaaRw_Retinaculum_patellae_medialis.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/jenzcps9CXyvsQm5wzq9kHaUmYg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-patellar-retinaculum-1/jzvAX23bc8yvm6jtfRaaRw_Retinaculum_patellae_medialis.png&quot;,&quot;title&quot;:&quot;Retinaculum patellae mediale; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Retinaculum patellae mediale&quot;,&quot; (innerer Kniescheibenzügel)&quot;],&quot;href&quot;:&quot;/de/atlas/medial-patellar-retinaculum-1&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/EZtgbc7m8RQ9OYHLhavsET3muDA=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/medial-patellar-retinaculum-1/jzvAX23bc8yvm6jtfRaaRw_Retinaculum_patellae_medialis.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;medial-patellar-retinaculum-1&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/OGvI2Kh_LHWo1eG-T9PuK9TpOYk=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/short-head-of-biceps-femoris-muscle/1FI1kDSHkLOCdRBt9Nwg_Short_head_Musculus_biceps_femoris.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/A0aym66rnc-qxum_78gMY78fh58=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/short-head-of-biceps-femoris-muscle/1FI1kDSHkLOCdRBt9Nwg_Short_head_Musculus_biceps_femoris.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/A0aym66rnc-qxum_78gMY78fh58=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/short-head-of-biceps-femoris-muscle/1FI1kDSHkLOCdRBt9Nwg_Short_head_Musculus_biceps_femoris.png&quot;,&quot;title&quot;:&quot;Caput breve musculi bicipitis femoris; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Caput breve musculi bicipitis femoris&quot;,&quot; (kurzer Kopf des zweiköpfigen Oberschenkelmuskels)&quot;],&quot;href&quot;:&quot;/de/atlas/short-head-of-biceps-femoris-muscle&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/DDQcOWrznu80mj_WNOK_Sutm-rc=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/short-head-of-biceps-femoris-muscle/1FI1kDSHkLOCdRBt9Nwg_Short_head_Musculus_biceps_femoris.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;short-head-of-biceps-femoris-muscle&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/3bt5jgvjwX_A7_Hn8UljBjw-6po=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-head-of-gastrocnemius-muscle/tV1mpGpA6EpEX2E13eQPw_Gastrocnemius_medialis.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/r-r0n5SaY-nOH_1OvUMYn1BMSNg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-head-of-gastrocnemius-muscle/tV1mpGpA6EpEX2E13eQPw_Gastrocnemius_medialis.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/r-r0n5SaY-nOH_1OvUMYn1BMSNg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-head-of-gastrocnemius-muscle/tV1mpGpA6EpEX2E13eQPw_Gastrocnemius_medialis.png&quot;,&quot;title&quot;:&quot;Caput mediale musculi gastrocnemii; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Caput mediale musculi gastrocnemii&quot;,&quot; (mittlerer Kopf des Zwillingswadenmuskels)&quot;],&quot;href&quot;:&quot;/de/atlas/medial-head-of-gastrocnemius-muscle&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/vYNiSs_2GH83z2jVDvzKT6pDdgE=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/medial-head-of-gastrocnemius-muscle/tV1mpGpA6EpEX2E13eQPw_Gastrocnemius_medialis.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;medial-head-of-gastrocnemius-muscle&quot;,&quot;image_type&quot;:&quot;cross-section&quot;},{&quot;fullscreen_url&quot;:&quot;https://thumbor.kenhub.com/cbMfyKNkiapLGsjdF1z_aY8iEjU=/fit-in/1000x1000/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-head-of-gastrocnemius-muscle/nDKZs7ubn7TyXhxv4BpEQ_Gastrocnemius_lateralis.png&quot;,&quot;img_url&quot;:&quot;https://thumbor.kenhub.com/eaI58LtCmOXQ46fcWHsXZdO43PE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-head-of-gastrocnemius-muscle/nDKZs7ubn7TyXhxv4BpEQ_Gastrocnemius_lateralis.png&quot;,&quot;placeholder_url&quot;:&quot;https://thumbor.kenhub.com/eaI58LtCmOXQ46fcWHsXZdO43PE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-head-of-gastrocnemius-muscle/nDKZs7ubn7TyXhxv4BpEQ_Gastrocnemius_lateralis.png&quot;,&quot;title&quot;:&quot;Caput laterale musculi gastrocnemii; Bild: National Library of Medicine&quot;,&quot;captions&quot;:[&quot;Caput laterale musculi gastrocnemii&quot;,&quot; (seitlicher Kopf des Zwillingswadenmuskels)&quot;],&quot;href&quot;:&quot;/de/atlas/lateral-head-of-gastrocnemius-muscle&quot;,&quot;thumb_url&quot;:&quot;https://thumbor.kenhub.com/bd3aQiszmsN2sKq6XhwVe3J40y8=/fit-in/98x98/filters:fill(FFFFFF,true):format(jpeg)/images/anatomy_term/lateral-head-of-gastrocnemius-muscle/nDKZs7ubn7TyXhxv4BpEQ_Gastrocnemius_lateralis.png&quot;,&quot;perspective&quot;:&quot;axial&quot;,&quot;slug&quot;:&quot;lateral-head-of-gastrocnemius-muscle&quot;,&quot;image_type&quot;:&quot;cross-section&quot;}]'>
+<noscript>
+<img alt="Höhe: Kniescheibe" title="Höhe: Kniescheibe" crossorigin="anonymous" src="https://thumbor.kenhub.com/smDUlouHBX9Ux3SZPCOC2C59Q6o=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_5000_10percent.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/atlas_overview_image/84/2OIc2uDy6jgXt42W2zEQw_cross-section-patella_latin.jpg" />
+<img alt="Epicondylus medialis femoris; Bild: National Library of Medicine" title="Epicondylus medialis femoris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/Q6k4uKLehDyQSUzWWw5RPuZ3HMQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-epicondyle-3/3fcoo90NRo2OEkQkTI6UFA_medial_condyle_of_femur.png" />
+<img alt="Fossa intercondylaris; Bild: National Library of Medicine" title="Fossa intercondylaris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/XfIqGganpQDtB0jeJRl1Qgg0eSE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/intercondylar-fossa-2/VPmDqCCTltxyFlKOVfHquw_intercondylar_fossa.png" />
+<img alt="Epicondylus lateralis femoris; Bild: National Library of Medicine" title="Epicondylus lateralis femoris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/pNGVYtHIP4sL7eK6qHhwFbXP6NE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-epicondyle-3/xal7oDqOHMmhX2dpV9Fw_lateral_epicondyle.png" />
+<img alt="Patella; Bild: National Library of Medicine" title="Patella; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/3KtJuC0RYxrN-XthHhg2-n-D5eA=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/patella-6/FQZoC4NYbzaLlkckZ9GHpw_patella.png" />
+<img alt="Nervus tibialis; Bild: National Library of Medicine" title="Nervus tibialis; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/cM0-Diy22rEMpL5YtDbDpcKo-UQ=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/tibial-nerve-5/dolE93aUYuEmMO1gE9X0A_Tibial_nerve.png" />
+<img alt="Vena saphena magna; Bild: National Library of Medicine" title="Vena saphena magna; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/K70tQ2OhZxRmUaHxUXDhcqHvNqE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/great-saphenous-vein-4/fnz9xjK9zWqAQPo6SH5Lg_great_saphenous_vein.png" />
+<img alt="Vena poplitea; Bild: National Library of Medicine" title="Vena poplitea; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/w8K5qRsfRjY2EuS2LvpYmvs1DbY=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-vein-3/cvN9Gl4J4j59sLrOscJ44Q_popliteal_vein.png" />
+<img alt="Arteria poplitea; Bild: National Library of Medicine" title="Arteria poplitea; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/J1jfMeBEeLzPeiJhxdZnN9vz2nw=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/popliteal-artery-3/hlTcoaDmF7FfErmRwBUsA_popliteal_artery.png" />
+<img alt="Ligamentum cruciatum anterius; Bild: National Library of Medicine" title="Ligamentum cruciatum anterius; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/7CszaA833EEeIllTIxKEf-JdUdM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/anterior-cruciate-ligament-2/uvioO0BldhZIisZhzUMrtw_anterior_cruciate_ligament.png" />
+<img alt="Condylus lateralis femoris; Bild: National Library of Medicine" title="Condylus lateralis femoris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/ElUe4Yl2XEr2MUgSA-NDYriUiv4=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-condyle-3/FqpIPtc224vLdkiKEfjZcQ_lateral_condyle_of_femur.png" />
+<img alt="Condylus medialis femoris; Bild: National Library of Medicine" title="Condylus medialis femoris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/3Zkf6sdQn21-4g2A1zDNNK_wU-M=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-condyle-3/B43SeiE8S341RLBJsfMQSw_Medial_condyle.png" />
+<img alt="Musculus plantaris; Bild: National Library of Medicine" title="Musculus plantaris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/NipbvA9sGuxXe_EPvHVpZZNskzM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/plantaris-muscle-2/LeZ9CoqErlKFb9JVMqLMXQ_plantaris_muscle.png" />
+<img alt="Musculus sartorius; Bild: National Library of Medicine" title="Musculus sartorius; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/OqityaPZeEa1p7dTgJYSDP0vbFU=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/sartorius-muscle-5/orz7Ul1hBMR4liPvlUdpVg_sartorius_muscle.png" />
+<img alt="Musculus semimembranosus; Bild: National Library of Medicine" title="Musculus semimembranosus; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/18PYxDtPQr7pousAV0pP9-6ALYo=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/semimembranosus-muscle-4/rLr2SIM5BL8ayPPvSvNfw_semimembranosus_muscle.png" />
+<img alt="Retinaculum patellae laterale; Bild: National Library of Medicine" title="Retinaculum patellae laterale; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/MRxZXlh0yRnvrtmo4Lj9AI0C5uI=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-patellar-retinaculum-1/3SLIEByR09tFgTEjTDzolw_Retinaculum_patellae_Laterale.png" />
+<img alt="Ligamentum collaterale fibulare; Bild: National Library of Medicine" title="Ligamentum collaterale fibulare; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/f5lss14LAD5L11n2HMfH09_90UM=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/fibular-collateral-ligament-2/sZuUEMviA3vv1KChKfkLg_fibular_collateral_ligament.png" />
+<img alt="Retinaculum patellae mediale; Bild: National Library of Medicine" title="Retinaculum patellae mediale; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/jenzcps9CXyvsQm5wzq9kHaUmYg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-patellar-retinaculum-1/jzvAX23bc8yvm6jtfRaaRw_Retinaculum_patellae_medialis.png" />
+<img alt="Caput breve musculi bicipitis femoris; Bild: National Library of Medicine" title="Caput breve musculi bicipitis femoris; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/A0aym66rnc-qxum_78gMY78fh58=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/short-head-of-biceps-femoris-muscle/1FI1kDSHkLOCdRBt9Nwg_Short_head_Musculus_biceps_femoris.png" />
+<img alt="Caput mediale musculi gastrocnemii; Bild: National Library of Medicine" title="Caput mediale musculi gastrocnemii; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/r-r0n5SaY-nOH_1OvUMYn1BMSNg=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/medial-head-of-gastrocnemius-muscle/tV1mpGpA6EpEX2E13eQPw_Gastrocnemius_medialis.png" />
+<img alt="Caput laterale musculi gastrocnemii; Bild: National Library of Medicine" title="Caput laterale musculi gastrocnemii; Bild: National Library of Medicine" crossorigin="anonymous" src="https://thumbor.kenhub.com/eaI58LtCmOXQ46fcWHsXZdO43PE=/fit-in/800x800/filters:fill(FFFFFF,true):watermark(/images/watermark_only.png,0,0,0):watermark(/images/logo_url.png,-10,-10,0):format(jpeg)/images/anatomy_term/lateral-head-of-gastrocnemius-muscle/nDKZs7ubn7TyXhxv4BpEQ_Gastrocnemius_lateralis.png" />
+</noscript>
+</div>
+</section>
+</section>
+<section class='lp__learning-pathway' id='learning_path'>
+<h2>Lerne weiter</h2>
+<section class='lp__category lp__category--article lp__category--truncated' id='lp_article'>
+<h3 class='lp__title'>
+<i class='fa fa-file-text'></i>
+Weitere Artikel lesen
+</h3>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='die-tiefen-flexoren-des-unterschenkels'>
+<div class='contentbox-image spinner'>
+<a title="Tiefe Flexoren des Unterschenkels" href="/de/library/anatomie/die-tiefen-flexoren-des-unterschenkels"><noscript>
+<img alt="Tiefe Flexoren des Unterschenkels" crossorigin="anonymous" src="https://thumbor.kenhub.com/qAeeKzS9WTKOYBGVVdm-ioVQTNo=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/die-tiefen-flexoren-des-unterschenkels/o1KFs9krxemhj2PUXX6Uw_M._tibialis_posterior.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Tiefe Flexoren des Unterschenkels" href="/de/library/anatomie/die-tiefen-flexoren-des-unterschenkels"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Tiefe Flexoren des Unterschenkels
+</div>
+<div class='contentbox-description'>
+DIe Flexoren des Unterschenkels sind eine Muskelgruppe, die aus drei Muskeln besteht. Lerne hier alles über ihre Anatomie, Innervation und Klinik!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='die-vorderen-extensoren-des-unterschenkels'>
+<div class='contentbox-image spinner'>
+<a title="Vordere Extensoren des Unterschenkels" href="/de/library/anatomie/die-vorderen-extensoren-des-unterschenkels"><noscript>
+<img alt="Vordere Extensoren des Unterschenkels" crossorigin="anonymous" src="https://thumbor.kenhub.com/cq_OOKl4_y0W3yWMrgt1QD9vyYA=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/die-vorderen-extensoren-des-unterschenkels/iCsRoSLIR6yyds3uQ4qpGA_M._tibialis_anterior_NN_1.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Vordere Extensoren des Unterschenkels" href="/de/library/anatomie/die-vorderen-extensoren-des-unterschenkels"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Vordere Extensoren des Unterschenkels
+</div>
+<div class='contentbox-description'>
+Erfahre hier alles über Ursprung, Ansatz, Innervation, Funktion und klinische Aspekte der Muskeln in der vorderen Extensorenloge des Unterschenkels.
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='die-fibularen-extensoren-des-unterschenkels'>
+<div class='contentbox-image spinner'>
+<a title="Fibulare Extensoren des Unterschenkels" href="/de/library/anatomie/die-fibularen-extensoren-des-unterschenkels"><noscript>
+<img alt="Fibulare Extensoren des Unterschenkels" crossorigin="anonymous" src="https://thumbor.kenhub.com/dtIyy14-8litPcLUZp9wLfDPB_c=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/die-fibularen-extensoren-des-unterschenkels/U3KpW62Izkt1ASKpf5VmQ_M._peroneus_longus_NN_1.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Fibulare Extensoren des Unterschenkels" href="/de/library/anatomie/die-fibularen-extensoren-des-unterschenkels"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Fibulare Extensoren des Unterschenkels
+</div>
+<div class='contentbox-description'>
+Die Fibularisgruppe des Unterschenkels besteht aus den Mm. peroneus longus und brevis. Erfahre hier mehr über Ursprung, Ansatz, Innervation und Funktion
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='der-musculus-popliteus'>
+<div class='contentbox-image spinner'>
+<a title="Musculus popliteus" href="/de/library/anatomie/der-musculus-popliteus"><noscript>
+<img alt="Musculus popliteus" crossorigin="anonymous" src="https://thumbor.kenhub.com/jkkOflGKEG-BfLI2EBE-Ud0fWrY=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/der-musculus-popliteus/cifUJ31XiTxKexeojCGLQ_Musculus_popliteus.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus popliteus" href="/de/library/anatomie/der-musculus-popliteus"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus popliteus
+</div>
+<div class='contentbox-description'>
+Der Musculus popliteus ist ein kleiner kurzer Muskel am Kniegelenk. Erfahre hier alles über seinen Ursprung und Ansatz, Funktion, Innervation und mehr!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-triceps-surae'>
+<div class='contentbox-image spinner'>
+<a title="Musculus triceps surae" href="/de/library/anatomie/musculus-triceps-surae"><noscript>
+<img alt="Musculus triceps surae" crossorigin="anonymous" src="https://thumbor.kenhub.com/V5GxpaMSSLehXH5WeRn1sDf_yA4=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-triceps-surae/7X3LHpz5YSYlKBinrlDyg_m_gastrocnemius.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus triceps surae" href="/de/library/anatomie/musculus-triceps-surae"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus triceps surae
+</div>
+<div class='contentbox-description'>
+Der Musculus triceps surae ist ein oberflächlicher Flexor des Unterschenkels. Lerne hier alles über Anatomie, Achillessehne, Innervation, Funktion und mehr!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='bones ligaments' data-media-type='articles' data-slug='pathologien-am-kniegelenk'>
+<div class='contentbox-image spinner'>
+<a title="Pathologien am Kniegelenk" href="/de/library/pathologie/pathologien-am-kniegelenk"><noscript>
+<img alt="Pathologien am Kniegelenk" crossorigin="anonymous" src="https://thumbor.kenhub.com/gOqeNnVGl1L9xvIE0F_UaxiD-AE=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/pathologien-am-kniegelenk/VTv2GMzpbyJa4lpJmdhcUw_Knee_and_leg_2.png.jpg" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Pathologien am Kniegelenk" href="/de/library/pathologie/pathologien-am-kniegelenk"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Pathologien am Kniegelenk
+</div>
+<div class='contentbox-description'>
+Bänderrisse, Meniskusläsionen und Arthrose verursachen Schmerzen im Kniegelenk und erfordern spezielle Kenntnisse in der Behandlung. Jetzt mehr erfahren.
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-semimembranosus'>
+<div class='contentbox-image spinner'>
+<a title="Musculus semimembranosus " href="/de/library/anatomie/musculus-semimembranosus"><noscript>
+<img alt="Musculus semimembranosus " crossorigin="anonymous" src="https://thumbor.kenhub.com/qLMbd-bkL_rVny2no4Gw5oAKha8=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-semimembranosus/HXp6VtTLUMiBNqhANFWBSw_M_semimembranosus.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus semimembranosus " href="/de/library/anatomie/musculus-semimembranosus"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus semimembranosus 
+</div>
+<div class='contentbox-description'>
+Der Musculus semimembranosus ist ein lang gezogener Flexor des Oberschenkels. Erfahre hier alles über Anatomie, Verlauf, Versorgung, Funktion &amp; Klinik!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-semitendinosus'>
+<div class='contentbox-image spinner'>
+<a title="Musculus semitendinosus" href="/de/library/anatomie/musculus-semitendinosus"><noscript>
+<img alt="Musculus semitendinosus" crossorigin="anonymous" src="https://thumbor.kenhub.com/bqI6buRWBcCW6_r9k2e0L2HCO7g=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-semitendinosus/gul7kF5SVsB84iCzu8prWA_m_semitendinosus.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus semitendinosus" href="/de/library/anatomie/musculus-semitendinosus"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus semitendinosus
+</div>
+<div class='contentbox-description'>
+Der Musculus semitendinosus ist ein langer schmaler Flexor des Kniegelenks. Lernt hier alles über Anatomie, Verlauf, Versorgung, Funktion &amp; Klinik!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='bones ligaments' data-media-type='articles' data-slug='unteres-sprunggelenk-articulatio-talotarsalis'>
+<div class='contentbox-image spinner'>
+<a title="Unteres Sprunggelenk (Articulatio talotarsalis)" href="/de/library/anatomie/unteres-sprunggelenk-articulatio-talotarsalis"><noscript>
+<img alt="Unteres Sprunggelenk (Articulatio talotarsalis)" crossorigin="anonymous" src="https://thumbor.kenhub.com/lJYiAqFKRBNwAdnz7SM2lXyq-J0=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/unteres-sprunggelenk-articulatio-talotarsalis/Q3bUnfMrr5CtoW3DBejW8Q_talotarsalis.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Unteres Sprunggelenk (Articulatio talotarsalis)" href="/de/library/anatomie/unteres-sprunggelenk-articulatio-talotarsalis"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Unteres Sprunggelenk (Articulatio talotarsalis)
+</div>
+<div class='contentbox-description'>
+Das untere Sprunggelenk (USG) wird aus Talus, Calcaneus und Os naviculare gebildet. Lies hier alles über die Anatomie, Bänder, Muskeln, Mechanik und mehr!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-extensor-hallucis-longus-langer-grosszehenstrecker'>
+<div class='contentbox-image spinner'>
+<a title="Musculus extensor hallucis longus " href="/de/library/anatomie/musculus-extensor-hallucis-longus-langer-grosszehenstrecker"><noscript>
+<img alt="Musculus extensor hallucis longus " crossorigin="anonymous" src="https://thumbor.kenhub.com/GXcLsPzb3LevUnuosTB4fmZnaNU=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-extensor-hallucis-longus-langer-grosszehenstrecker/gK1Is6Kp3QFHEZczHths6Q_xcwbVfplx1uRe1WwVe8Bw_uu5Wqf8cJG_M._extensor_hallucis_longus_NN_2.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus extensor hallucis longus " href="/de/library/anatomie/musculus-extensor-hallucis-longus-langer-grosszehenstrecker"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus extensor hallucis longus 
+</div>
+<div class='contentbox-description'>
+Der Musculus extensor hallucis longus gehört zu den Extensoren des Unterschenkels. Erfahre hier mehr über seine Anatomie &amp; Funktion!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-fibularis-longus-langer-wadenbeinmuskel'>
+<div class='contentbox-image spinner'>
+<a title="Musculus fibularis longus (langer Wadenbeinmuskel)" href="/de/library/anatomie/musculus-fibularis-longus-langer-wadenbeinmuskel"><noscript>
+<img alt="Musculus fibularis longus (langer Wadenbeinmuskel)" crossorigin="anonymous" src="https://thumbor.kenhub.com/rv04X22ZXKQfCzxv_2DG9e8xdFs=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-fibularis-longus-langer-wadenbeinmuskel/FOTQ8nNWoqodMy9xX08VaQ_U3KpW62Izkt1ASKpf5VmQ_txqULDGkD3_M._peroneus_longus_NN_1.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus fibularis longus (langer Wadenbeinmuskel)" href="/de/library/anatomie/musculus-fibularis-longus-langer-wadenbeinmuskel"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus fibularis longus (langer Wadenbeinmuskel)
+</div>
+<div class='contentbox-description'>
+Der Musculus fibularis longus bewirkt hauptsächlich eine Plantarflexion im oberen Sprunggelenk. Erfahre hier mehr über seine Funktion!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-tibialis-posterior'>
+<div class='contentbox-image spinner'>
+<a title="Musculus tibialis posterior" href="/de/library/anatomie/musculus-tibialis-posterior"><noscript>
+<img alt="Musculus tibialis posterior" crossorigin="anonymous" src="https://thumbor.kenhub.com/WnVwwbp9OOGEWB3yQPgtv125qJQ=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-tibialis-posterior/88VelXtai1cbfOmNsZERHQ_YVKMLfwiC9N6pxKvYwkTIQ_9vsSyj16ei_M._tibialis_posterior_NN_1.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus tibialis posterior" href="/de/library/anatomie/musculus-tibialis-posterior"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus tibialis posterior
+</div>
+<div class='contentbox-description'>
+Der Musculus tibialis posterior ist ein tiefer Flexor des Unterschenkels. Erfahre hier mehr über seine Anatomie und pathologische Veränderungen!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-flexor-hallucis-longus'>
+<div class='contentbox-image spinner'>
+<a title="Musculus flexor hallucis longus" href="/de/library/anatomie/musculus-flexor-hallucis-longus"><noscript>
+<img alt="Musculus flexor hallucis longus" crossorigin="anonymous" src="https://thumbor.kenhub.com/-DCqnDeBr4l0XkVOvrBMHVA8m2U=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-flexor-hallucis-longus/UDjkGXj5o7Cul6WEW4smQ_0dTPiVl0Tvd996lS3udqVg_CMRLF4Vp5C_M._flexor_hallucis_longus_NN_2.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus flexor hallucis longus" href="/de/library/anatomie/musculus-flexor-hallucis-longus"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus flexor hallucis longus
+</div>
+<div class='contentbox-description'>
+Der Musculus flexor hallucis longus ist ein tiefer Wadenmuskel für die Beugung von Großzehe und Fuß. Erfahre hier mehr über seine Anatomie &amp; Klinik!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-fibularis-brevis'>
+<div class='contentbox-image spinner'>
+<a title="Musculus fibularis brevis" href="/de/library/anatomie/musculus-fibularis-brevis"><noscript>
+<img alt="Musculus fibularis brevis" crossorigin="anonymous" src="https://thumbor.kenhub.com/5QI8PXgr0ZCAwXFeKC__aI3slSU=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-fibularis-brevis/Bt7sypGHSXBvgKfmQqCN0A_jeZMLkUspp16bl1s0pQWYw_qHerNjxsD9_M._peroneus_brevis_NN_2.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus fibularis brevis" href="/de/library/anatomie/musculus-fibularis-brevis"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus fibularis brevis
+</div>
+<div class='contentbox-description'>
+Der Musculus fibularis brevis ist der stärkste Fußabduktor der Unterschenkelmuskulatur. Erfahre hier mehr über seine Anatomie und Klinik!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='articles' data-slug='musculus-tibialis-anterior'>
+<div class='contentbox-image spinner'>
+<a title="Musculus tibialis anterior" href="/de/library/anatomie/musculus-tibialis-anterior"><noscript>
+<img alt="Musculus tibialis anterior" crossorigin="anonymous" src="https://thumbor.kenhub.com/qB413nRvXMSid3RxszPuRvZoKww=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/musculus-tibialis-anterior/YJTwpMN6EWajXhtn1tQjA_ssEatJ6boVqj60odURIiQ_S6zoMopRSV_M._tibialis_anterior_NN_2.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Musculus tibialis anterior" href="/de/library/anatomie/musculus-tibialis-anterior"><div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Musculus tibialis anterior
+</div>
+<div class='contentbox-description'>
+Der Musculus tibialis anterior ist der wichtigste Extensor des Fußes. Erfahre hier mehr über seine Anatomie, Funktion und Klinik!
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles nerves bones arteries veins' data-media-type='articles' data-slug='anatomie-des-unterschenkels-und-knies'>
+<div class='contentbox-image spinner'>
+<a title="Anatomie Kniegelenk und Unterschenkel" href="/de/library/anatomie/anatomie-des-unterschenkels-und-knies"><noscript>
+<img alt="Anatomie Kniegelenk und Unterschenkel" crossorigin="anonymous" src="https://thumbor.kenhub.com/j3NOxAK2NzqEKyBpcSjjuxR2Zz8=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/article/de/anatomie-des-unterschenkels-und-knies/KXEW0BvIGSAhvhSbXX3rQg_175_176_177_178_179_tibia_extensors_nn.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Anatomie Kniegelenk und Unterschenkel" href="/de/library/anatomie/anatomie-des-unterschenkels-und-knies"><div class='contentbox__new_de'></div>
+<div class='contentbox-title'>
+<i class='fa fa-file-text'></i>
+Anatomie Kniegelenk und Unterschenkel
+</div>
+<div class='contentbox-description'>
+Die Anatomie des Kniegelenks und Unterschenkels ist komplex. Klicke hier für einen Überblick zu den wichtigsten Strukturen!
+</div>
+</a></div>
+
+</div>
+<div class='btn btn-primary btn-tiny'>
+Zeige 14 weitere Artikel
+</div>
+
+</section>
+<section class='lp__category lp__category--video lp__category--next lp__category--truncated' id='lp_video'>
+<h3 class='lp__title'>
+<i class='fa fa-youtube-play'></i>
+Videos anschauen
+</h3>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscle-facts muscles' data-media-type='videos' data-premium='true' data-slug='anterior-and-lateral-leg-muscles' data-title='Vordere und fibulare Extensoren des Unterschenkels'>
+<div class='contentbox-image spinner'>
+<a title="Vordere und fibulare Extensoren des Unterschenkels" href="/de/videos/anterior-and-lateral-leg-muscles"><noscript>
+<img alt="Vordere und fibulare Extensoren des Unterschenkels" crossorigin="anonymous" src="https://thumbor.kenhub.com/d7UaAm4LUEUT50L162dPgt4Camw=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/video/de/anterior-and-lateral-leg-muscles/zC0j5XU1gAXK7SHpEjBg_Anterior_and_lateral_muscles_of_leg.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Vordere und fibulare Extensoren des Unterschenkels" href="/de/videos/anterior-and-lateral-leg-muscles"><div class='contentbox-title'>
+<i class='fa fa-youtube-play'></i>
+Vordere und fibulare Extensoren des Unterschenkels
+</div>
+<div class='contentbox-description'>
+Ursprung, Ansatz, Innervation und Funktion der Muskeln in der Extensoren- und Fibularisloge.
+[18:33]
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscle-facts muscles' data-media-type='videos' data-premium='true' data-slug='posterior-leg-muscles' data-title='Flexoren des Unterschenkels'>
+<div class='contentbox-image spinner'>
+<a title="Flexoren des Unterschenkels" href="/de/videos/posterior-leg-muscles"><noscript>
+<img alt="Flexoren des Unterschenkels" crossorigin="anonymous" src="https://thumbor.kenhub.com/MYCpBWgVCspHMRF5nOk07tAYvUQ=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/video/de/posterior-leg-muscles/QeaqKk5uGqdUjVLLYi4rSw_Posterior_muscles_of_the_leg.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Flexoren des Unterschenkels" href="/de/videos/posterior-leg-muscles"><div class='contentbox-title'>
+<i class='fa fa-youtube-play'></i>
+Flexoren des Unterschenkels
+</div>
+<div class='contentbox-description'>
+Ursprung, Ansatz, Innervation und Funktion der oberflächlichen und tiefen Muskeln Flexorenloge.
+[19:03]
+</div>
+</a></div>
+
+</div>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscle-facts muscles' data-media-type='videos' data-premium='true' data-slug='muscles-tibia-fibula' data-title='Unterschenkel- und Kniemuskeln'>
+<div class='contentbox-image spinner'>
+<a title="Unterschenkel- und Kniemuskeln" href="/de/videos/muscles-tibia-fibula"><noscript>
+<img alt="Unterschenkel- und Kniemuskeln" crossorigin="anonymous" src="https://thumbor.kenhub.com/Uzk8EZVKq20pZ15HOJoIp-XsXEo=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/video/de/muscles-tibia-fibula/VvTcPJhj5xfzrdHCNIIbRw_Muscles_of_the_knee_and_leg.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Unterschenkel- und Kniemuskeln" href="/de/videos/muscles-tibia-fibula"><div class='contentbox-title'>
+<i class='fa fa-youtube-play'></i>
+Unterschenkel- und Kniemuskeln
+</div>
+<div class='contentbox-description'>
+Überblick über die Muskeln des Unterschenkels und Knies.
+[47:07]
+</div>
+</a></div>
+
+</div>
+<div class='btn btn-primary btn-tiny'>
+Zeige 1 weiteres Video
+</div>
+
+</section>
+<section class='lp__category lp__category--quiz' id='lp_quiz'>
+<h3 class='lp__title'>
+<i class='fa fa-graduation-cap'></i>
+Training starten
+</h3>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='quizzes' data-premium='true' data-slug='muscles-tibia-fibula'>
+<div class='contentbox-image spinner'>
+<a title="Unterschenkel- und Kniemuskeln" href="/de/quizzes/muscles-tibia-fibula"><noscript>
+<img alt="Unterschenkel- und Kniemuskeln" crossorigin="anonymous" src="https://thumbor.kenhub.com/OUxoNUgGywBBPvC_l7ziv5DvEj8=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/sequence/muscles-tibia-fibula/VvTcPJhj5xfzrdHCNIIbRw_Muscles_of_the_knee_and_leg.png" />
+</noscript>
+</a></div>
+<a title="Unterschenkel- und Kniemuskeln" class="contentbox-topic" href="/de/quizzes/muscles-tibia-fibula"><div class='contentbox-title'>
+<i class='fa fa-graduation-cap'></i>
+Unterschenkel- und Kniemuskeln
+</div>
+<div class='contentbox-description'>
+Überblick über die Muskeln des Unterschenkels und Knies.
+</div>
+</a></div>
+
+</div>
+</section>
+<section class='lp__category lp__category--atlas' id='lp_atlas'>
+<h3 class='lp__title'>
+<i class='fa fa-globe'></i>
+Atlas durchstöbern
+</h3>
+<div class='lp__item'>
+<div class='lp__item-arrow'></div>
+<div class='contentbox' data-content-tags='muscles' data-media-type='atlas' data-slug='muscles-tibia-fibula'>
+<div class='contentbox-image spinner'>
+<a title="Unterschenkel- und Kniemuskeln" href="/de/start/muscles-tibia-fibula/atlas"><noscript>
+<img alt="Unterschenkel- und Kniemuskeln" crossorigin="anonymous" src="https://thumbor.kenhub.com/OUxoNUgGywBBPvC_l7ziv5DvEj8=/141x141/filters:fill(FFFFFF,true):format(jpeg)/images/sequence/muscles-tibia-fibula/VvTcPJhj5xfzrdHCNIIbRw_Muscles_of_the_knee_and_leg.png" />
+</noscript>
+</a></div>
+<a class="contentbox-topic" title="Unterschenkel- und Kniemuskeln" href="/de/start/muscles-tibia-fibula/atlas"><div class='contentbox-title'>
+<i class='fa fa-globe'></i>
+Unterschenkel- und Kniemuskeln
+</div>
+<div class='contentbox-description'>
+Überblick über die Muskeln des Unterschenkels und Knies.
+</div>
+</a></div>
+
+</div>
+</section>
+<div class='lp__category lp__category--trophy'>
+<div class='lp__title'>
+<i class='fa fa-trophy'></i>
+Gut gemacht!
+</div>
+</div>
+</section>
+
+
+<div class='ebook-promotion ebook-promotion--mobile ebook-promotion--bottom hide'>
+<div class='well'>
+<p class='tiny'>
+<a data-track="registration clicked" data-track-element="ebook_promotion" href="/de/registration-ebook">Jetzt registrieren</a>
+und gratis Anatomie-Lernguide eBook erhalten!
+</p>
+<a data-track="registration clicked" data-track-element="ebook_promotion" href="/de/registration-ebook"><noscript><img src="https://www.kenhub.com/assets/sidebar/sidebar_ebook_trimmed_de-b86c5d7f35e89255d2c2112a1bc39c6166ba47930c292c2dd750c3a54e6ec3ff.png" /></noscript>
+</a></div>
+
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class='l-container'>
+<div class='logos l-row'>
+<noscript>
+<a rel="nofollow" href="http://www.fu-berlin.de"><img class="grayscale" title="Freie Universität Berlin" src="https://www.kenhub.com/assets/home/index/fub_logo-980c398b1aae6d4f40d2dab819cc4bfea6a0ea8f8a58f889a15e379257e0d07b.png" />
+</a><a rel="nofollow" href="http://duth.gr"><img class="grayscale" title="Democritus University of Thrace" src="https://www.kenhub.com/assets/home/index/duth-f47aee128ec152fc52db9c2d72e528c866220bd1faf12784424c8aa21245eb70.png" />
+</a><a rel="nofollow" href="http://www.hs-fresenius.de"><img class="grayscale" title="Hochschule Fresenius - University of Applied Sciences" src="https://www.kenhub.com/assets/home/index/fresenius_logo-27546d17c51afa228fe79315c7e32d9e7b739e0b13e626ae66a789f528a0006b.png" />
+</a><a rel="nofollow" href="http://www.ucdenver.edu"><img class="grayscale" title="University of Colorado Denver | Anschutz Medical Campus" src="https://www.kenhub.com/assets/home/index/uc_denver-790799ce25a08270866c89acd68a483ce39fab3261e6d49df4f3577473eb4f16.png" />
+</a></noscript>
+</div>
+<div class='l-row l-sitemap'>
+<div class='span6'>
+<div class='l-sitemap__sections'>
+<div class='l-sitemap__section'>
+<div class='l-sitemap__title'><a href="/de/start/anatomy">Anatomie</a></div>
+<ul class='unstyled'>
+<li><a href="/de/start/basics">Grundlagen</a></li>
+<li><a href="/de/library/anatomie/obere-extremitat-anatomie">Obere Extremität</a></li>
+<li><a href="/de/start/lower-extremity">Untere Extremität</a></li>
+<li><a href="/de/start/trunk">Rumpfwand</a></li>
+<li><a href="/de/library/anatomie/anatomie-von-kopf-und-hals">Kopf &amp; Hals</a></li>
+<li><a href="/de/start/thorax">Thorax</a></li>
+<li><a href="/de/start/abdomen-pelvis">Abdomen &amp; Becken</a></li>
+<li><a href="/de/start/neuroanatomy">Neuroanatomie</a></li>
+<li><a href="/de/start/cross-sections">Schnittbildanatomie</a></li>
+</ul>
+</div>
+<div class='l-sitemap__section'>
+<div class='l-sitemap__title'><a href="/de/start/histology">Histologie</a></div>
+<ul class='unstyled'>
+<li><a href="/de/start/general-histology">Grundlagen</a></li>
+<li><a href="/de/start/systems-histology">Organssysteme</a></li>
+<li><a href="/de/start/fetal-histology">Embryologisches Gewebe</a></li>
+</ul>
+</div>
+<div class='l-sitemap__section'>
+<div class='l-sitemap__title'><a href="/de/start/medical-imaging">Bildgebung</a></div>
+<ul class='unstyled'>
+<li><a href="/de/start/imaging-head-and-neck"> Kopf &amp; Hals</a></li>
+<li><a href="/de/start/imaging-abdomen-pelvis">Abdomen &amp; Becken</a></li>
+<li><a href="/de/start/imaging-upper-limb">Obere Extremität</a></li>
+<li><a href="/de/start/imaging-lower-limb">Untere Extremität</a></li>
+<li><a href="/de/start/imaging-thorax">Thorax</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class='span3'>
+<div class='l-sitemap__title'>Info</div>
+<ul class='unstyled'>
+<li><a data-track="pricing page clicked" data-track-element="footer" href="/de/pricing">Preise</a></li>
+<li><a href="/de/anatomy-pictures">Illustrationen lizensieren</a></li>
+<li><a href="/de/sitemap/videos">Alle Videos</a></li>
+<li><a href="/de/sitemap/quizzes">Alle Trainings</a></li>
+<li><a href="/de/sitemap/articles">Alle Artikel</a></li>
+</ul>
+<div class='l-sitemap__title'><a data-track="help link clicked" href="/de/help">Besser lernen</a></div>
+<ul class='unstyled'>
+<li><a href="/de/ultimate-anatomy-study-guide-ebook">Kostenloses Ebook</a></li>
+<li><a href="/de/help/how-to-use">Bedienungstipps</a></li>
+<li><a href="/de/help/learn">Lernstrategien</a></li>
+<li><a href="/de/ebooks">Lernkarten eBooks</a></li>
+<li><a href="/de/help/webinars">Webinare</a></li>
+<li><a href="/de/success-stories">Erfolgsstories</a></li>
+</ul>
+</div>
+<div class='span3'>
+<div class='l-sitemap__title'><a href="/de/about">Über Uns</a></div>
+<ul class='unstyled'>
+<li><a href="/de/team">Team</a></li>
+<li><a href="/de/partners">Partner</a></li>
+<li><a href="/de/jobs">Jobs</a></li>
+<li><a href="/de/contact">Kontakt</a></li>
+<li><a href="/de/imprint">Impressum</a></li>
+<li><a href="/de/terms">Geschäftsbedingungen</a></li>
+<li><a href="/de/privacy">Datenschutz</a></li>
+</ul>
+<a class='circle fa fa-facebook' href='http://www.facebook.com/kenhubcom' title='Facebook'></a>
+<a class='circle fa fa-twitter' href='http://twitter.com/kenhub' title='Twitter'></a>
+<a class='circle fa fa-pinterest' href='https://www.pinterest.com/kenhub_official/' title='Pinterest'></a>
+<a class='circle fa fa-google-plus' href='http://plus.google.com/108632037155622326172' title='Google+'></a>
+</div>
+</div>
+<div class='l-row'>
+<p class='tiny'>
+Copyright &copy;
+2019
+Kenhub.
+Alle Rechte vorbehalten.
+</p>
+</div>
+</div>
+</footer>
+
+<div class='fading-banner'>
+<div class='close hide'></div>
+<div class='l-container'>
+<div class='l-row'>
+<div class='fading-banner-headlines'>
+<div class='fading-banner-headline'>Erstelle dein kostenloses Konto.</div>
+<div class='fading-banner-subheadline'>Leg’ los mit deinem Training – in weniger als 60 Sekunden.</div>
+</div>
+<div class='fading-banner-ctas'>
+<a class="btn btn-primary" data-track="registration clicked" data-track-element="fading banner" href="/de/register">Jetzt registrieren ➞</a>
+<a class="btn fading-banner-btn hide-md" href="#">Nein, danke</a>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div id='fullscreen_layer_container'></div>
+<div class='modal hide fade' id='modal_login'>
+<div class='modal-body'>
+<div class='social-authentication'>
+<a id="login_with_facebook" data-ladda-button="true" data-style="zoom-out" class="btn btn-primary btn-block text-left ladda-button" rel="nofollow" href="/authenticate/facebook?locale=de"><i class='fa fa-facebook attached'></i>
+<span class='ladda-label'>Login mit Facebook</span>
+</a><a id="login_with_google" data-ladda-button="true" data-style="zoom-out" class="btn btn-primary btn-block text-left ladda-button" rel="nofollow" href="/authenticate/google?locale=de"><i class='fa fa-google-plus attached'></i>
+<span class='ladda-label'>Login mit Google</span>
+</a></div>
+<div class='divider'></div>
+<div class='hide' id='password_reset_form'>
+<div id='modal_passwort_reset_message'></div>
+<form action="/de/password" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div class='control-group'>
+<label class="control-label" for="password_user_email">Email</label>
+<div class='controls'>
+<input type="email" name="user[email]" id="password_user_email" />
+</div>
+</div>
+<button name="button" type="submit" data-style="zoom-out" class="btn btn-primary ladda-button">Passwort zurücksetzen</button>
+<a data-toggle-password-reset="" href="">Zurück zum Login</a>
+</form></div>
+<div id='login_form'>
+<div id='modal_login_error'></div>
+<form action="/de/login" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/qHHBnPtzrbmapNkTjffpmXGS2xquYmpKMLen5FrBbxFuoWUgosdnSVBKa9H3l4TKvEHgJPTFIhOgZljA5zqCQ==" /><div class='l-row'>
+<div class='control-group span6'>
+<label class="control-label" for="login_modal_user_email">Email</label>
+<div class='controls'>
+<input type="email" name="user[email]" id="login_modal_user_email" />
+</div>
+</div>
+<div class='control-group span6'>
+<label class="control-label" for="login_modal_user_password">Password</label>
+<div class='controls'>
+<input type="password" name="user[password]" id="login_modal_user_password" />
+</div>
+</div>
+</div>
+<div class='control-group'>
+<div class='controls'>
+<input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="login_modal_user_remember_me" />
+<label for="login_modal_user_remember_me"><span></span>
+Angemeldet bleiben
+</label></div>
+</div>
+<button name="button" type="submit" data-style="zoom-out" class="btn btn-primary ladda-button">Login</button>
+<a data-toggle-password-reset="" href="">Passwort vergessen</a>
+</form></div>
+</div>
+<div class='modal-footer'>
+<p class='tiny'>
+Kein Benutzerkonto?
+<a data-track="registration clicked" data-track-element="login modal" href="/de/register">Jetzt registrieren</a>
+</p>
+<div class='recaptcha'>
+Diese Seite ist geschützt durch reCaptcha und es gelten die Google <a href='https://policies.google.com/privacy'>Datenschutzerklärung</a> und <a href='https://policies.google.com/terms'>Nutzungsbedingungen</a>.
+</div>
+</div>
+</div>
+<div class='modal modal-wide hide fade' id='training_cta_modal'>
+<div class='modal-header'>
+<div class='close' data-dismiss='modal'></div>
+<h3>Anatomie lernen ist nicht unmöglich.<br> Wir helfen dir.</h3>
+</div>
+<div class='modal-body text-center'>
+<div class='l-row'>
+<div class='span6'>
+<noscript><img src="https://www.kenhub.com/assets/want_more_trainer-32dd5b632f420f8b83fe4d12f2cd0da68686e5f31b93ca582d6ae422f16a4d30.jpg" /></noscript>
+</div>
+<div class='span6'>
+<noscript><img src="https://www.kenhub.com/assets/want_more_videos-5513a16cc412183a6e168334c178885e1e9f61513a761d5c59bad6003c2378c3.jpg" /></noscript>
+</div>
+</div>
+<div class='description'>
+<p>Anatomie lernen ist eine gewaltige Herausforderung und wir wollen dir dabei helfen, sie mit Bravour zu meistern.</p>
+</div>
+</div>
+<div class='modal-footer text-center'>
+<a class="btn btn-primary" data-track="registration clicked" data-track-element="bounce modal" href="/de/register">Erstelle dein kostenloses Konto ➞</a>
+</div>
+</div>
+
+
+
+
+<script type='application/ld+json'>
+[{"@context":"http://schema.org","@type":"WebSite","name":"Kenhub","url":"https://www.kenhub.com","potentialAction":{"@type":"SearchAction","target":"https://www.kenhub.com/de/search?utf8=%E2%9C%93\u0026q={search_term_string}","query-input":"required name=search_term_string"}}]
+</script>
+</body>
+</html>

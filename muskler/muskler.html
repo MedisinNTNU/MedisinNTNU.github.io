@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Innervering</title>
+	<title>Muskler</title>
 </head>
 <body>
+
+	<div id="kategori"></div>
 
 	<div id="poeng"></div>
 	<div id="info"></div>
@@ -12,10 +14,18 @@
 
 	<script type="text/javascript">
 
+		var kategori = document.getElementById("kategori");
+		var muskelKategori = [];
+
 		var poeng = document.getElementById("poeng");
 		var info = document.getElementById("info");
 		var svar = document.getElementById("svar");
 		var fasit = document.getElementById("fasit");
+
+		poeng.style.display = "none";
+		info.style.display = "none";
+		svar.style.display = "none";
+		fasit.style.display = "none";
 
 		var inputSvar = document.createElement("input");
 		inputSvar.type = "text";
@@ -52,7 +62,7 @@
 		"Plexus cervicalis"
 		]
 
-		var skulderMuskler = [
+		var overkroppMuskler = [
 		["M trapezius", ["N accessorius"]],
 		["M sternocleidomastoideus", ["N accessorius"]],
 		["M omohyoideus", ["Ansa cervicalis"]],
@@ -72,8 +82,8 @@
 
 		["M deltoideus", ["N axillaris"]],
 
-		["M latissimus dorsi", ["N supscapularis interior"]],
-		["M teres major", ["N thoracodorsalis"]],
+		["M latissimus dorsi", ["N thoracodorsalis"]],
+		["M teres major", ["N subscapularis inferior"]],
 
 		["M pectoralis major", ["Nn pectorales medialis og lateralis"]],
 		["M coracobrachialis", ["N musculocutaneus"]],
@@ -142,21 +152,24 @@
 		["M pectineus", ["N femoralis og N obturatorius"]],
 		["M adductor longus", ["N obturatorius"]],
 		["M adductor brevis", ["N obturatorius"]],
-		["M adductor maximus, dyp del", ["N obturatorius"]],
-		["M adductor maximus, overflate del", ["N tibialis"]],
+		["M adductor maximus", ["N obturatorius og N tibialis"]],
+		//["M adductor maximus, dyp del", ["N obturatorius"]],
+		//["M adductor maximus, overflate del", ["N tibialis"]],
 		["M adductor minumus", ["N obturtorius"]],
 		["M gracilis", ["N obturtorius"]],
 
 		//Ekstesjon-gruppe, NB: M sartorius gjør fleksjon
 		["M sartorius", ["N femoralis"]],
+		//M quadriceps femoris
 		["M vastus medialis", ["N femoralis"]],
 		["M vastus intermedius", ["N femoralis"]],
 		["M vastus lateralis", ["N femoralis"]],
 		["M rectus femoris", ["N femoralis"]],
 
 		//Fleksjon-gruppe
-		["M biceps femoris caput longum", ["N tibialis"]],
-		["M biceps femoris caput breve", ["N fibularis communis"]],
+		["M biceps femoris", ["N tibialis og N fibularis communis"]],
+		//["M biceps femoris caput longum", ["N tibialis"]],
+		//["M biceps femoris caput breve", ["N fibularis communis"]],
 		["M semimembranosus", ["N tibialis"]],
 		["M semitendinosus", ["N tibialis"]],
 		["M popliteus", ["N tibialis"]],
@@ -165,16 +178,18 @@
 		["M tibialis anterior", ["N fibularis profundus"]],
 		["M extensor digitorium longus", ["N fibularis profundus"]],
 		["M extensor hallucis longus", ["N fibularis profundus"]],
-		["M fibularis tertius (del av M extensor digitorium longus)", ["N fibularis profundus"]],
 
 		//Laterale/Fibulare/Peroneue del på legg, LS/FS
 		["M fibularis longus", ["N fibularis superficialis"]],
 		["M fibularis brevis", ["N fibularis superficialis"]],
 
 		//Bakre/Posterior og overflate del på legg, PT
+		//Triceps surae
 		["M soleus", ["N tibialis"]],
-		["M gastronemius caput laterale", ["N tibialis"]],
-		["M gastronemius caput mediale", ["N tibialis"]],
+		["M gastronemius", ["N tibialis"]],
+		//["M gastronemius caput laterale", ["N tibialis"]],
+		//["M gastronemius caput mediale", ["N tibialis"]],
+
 		["M plantaris", ["N tibialis"]],
 
 		//Bakre/Posterior og dype del på legg, PT
@@ -215,9 +230,58 @@
 		return array;
 	}
 
-	shuffle(skulderMuskler);
+	shuffle(overkroppMuskler);
 	shuffle(armMuskler);
 	shuffle(beinMuskler);
+
+	bindRadioKnapp = function (radio, kategori) {
+
+		radio.onclick = function () {
+			console.log(kategori);
+
+			poeng.style.display = "block";
+			info.style.display = "block";
+			svar.style.display = "block";
+			fasit.style.display = "block";
+
+			if (kategori == kategorier[0]) {
+				muskelKategori = overkroppMuskler;
+				LagSporsmal(muskelKategori);
+			}
+			else if (kategori == kategorier[1]) {
+				muskelKategori = armMuskler;
+				LagSporsmal(muskelKategori);
+			}
+			else if (kategori == kategorier[2]) {
+				muskelKategori = beinMuskler;
+				LagSporsmal(muskelKategori);
+			}
+		}
+		
+	}
+
+	var kategorier = ["Overkropp", "Armer", "Bein"];
+
+	VisKategori = function () {
+		kategori.innerHTML = "Velg kategori: ";
+
+		for (var i = 0; i < kategorier.length; i++) {
+			var radio = document.createElement("input");
+			radio.type = "radio";
+			radio.name = "muskelKategori";
+			radio.className = "inaktiv";
+			radio.id = kategorier[i];
+			radio.value = kategorier[i];
+			var label = document.createElement("label");
+			label.htmlFor = radio.id;
+			label.innerHTML = kategorier[i];
+			kategori.appendChild(radio);
+			kategori.appendChild(label);
+			bindRadioKnapp(radio, kategorier[i]);
+		}	
+	}
+	
+	VisKategori();
 
 	LagSporsmal = function (muskelGruppe) {
 		console.log(muskelGruppe);
@@ -247,8 +311,6 @@
 		//VisSvaralternativ();
 		VisTekstBoks();
 		sporsmalObjekt = riktigAlternativ[0];
-
-		antallSporsmal += 1;
 	}
 
 	ReturnerSporsmalObjekt = function (objekt) {
@@ -297,6 +359,7 @@
 	}
 
 	sendSvarKnapp.onclick = function () {
+		antallSporsmal += 1;
 		var valgtAlternativ = inputSvar.value;
 
 		if (valgtAlternativ == riktigSvar) {
@@ -324,6 +387,7 @@
 
 	bindKnappTrykk = function (knapp, valgtAlternativ) {
 		knapp.onclick = function () {
+			antallSporsmal += 1;
 			svar.innerHTML = "";
 			if (valgtAlternativ == riktigSvar) {
 				fasit.innerHTML = "Det er korrekt, bildet viser <b>" + riktigSvar + "</b>.";
@@ -339,10 +403,8 @@
 
 	nesteSporsmalKnapp.onclick = function () {
 		antallSporsmalSpurt += 1;
-		LagSporsmal(armMuskler);
+		LagSporsmal(muskelKategori);
 	}
-
-	LagSporsmal(armMuskler);
 
 	</script>
 </body>
